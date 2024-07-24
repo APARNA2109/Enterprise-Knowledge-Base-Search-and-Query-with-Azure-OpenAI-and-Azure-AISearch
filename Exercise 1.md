@@ -1,6 +1,5 @@
 # Exercise 1: Embedding Creation
 
-
 ## Task 1: Deploy Azure OpenAI and Models
 
 Azure OpenAI offers a web-based portal called **Azure OpenAI Studio** for deploying, managing, and exploring models. Follow these steps to deploy a model using Azure OpenAI Studio:
@@ -40,13 +39,12 @@ Azure OpenAI offers a web-based portal called **Azure OpenAI Studio** for deploy
 
    
 
-6. On the Deployments page, click **+ Create new deployment**.
+1. On the Deployments page, click **+ Create new deployment**.
 
    
 
-7. In the Deploy model pop-up, enter the following details:
+1. In the Deploy model pop-up, enter the following details:
     
-
     - **Deployment name**: text-davinci-003
 
     - **Select a Model**: gpt-35-turbo-instruct
@@ -69,7 +67,7 @@ Azure OpenAI offers a web-based portal called **Azure OpenAI Studio** for deploy
     - **Tokens per Minute Rate Limit (thousands)**: 40K
   
 
-11. Click on the **Create** button to deploy a model that you will be playing around with as you proceed.
+1. Click on the **Create** button to deploy a model that you will be playing around with as you proceed.
 
 
 ## Task 2: Create Azure AI Search Resources
@@ -111,11 +109,11 @@ Azure OpenAI offers a web-based portal called **Azure OpenAI Studio** for deploy
 1. In the Azure portal, type **Document intelligence (1)** in the search box and select **Document intelligence (2)** from the results.
 
 
-2. On the **Azure AI services | Document intelligence** blade, click **Create**.
+1. On the **Azure AI services | Document intelligence** blade, click **Create**.
 
     
 
-3. Create a **Document intelligence** resource with the following settings:
+1. Create a **Document intelligence** resource with the following settings:
    
     - **Subscription**: Default - Pre-assigned subscription.
     
@@ -128,18 +126,18 @@ Azure OpenAI offers a web-based portal called **Azure OpenAI Studio** for deploy
     - **Pricing tier**: Standard S0
     
     
-4. Click **Review + Create** and then **Create**.
+1. Click **Review + Create** and then **Create**.
 
-5. Once the deployment is complete, click **Go To Resources**.
+1. Once the deployment is complete, click **Go To Resources**.
 
-6. In the Document intelligence resource, select **Key & Endpoint** from the left menu, click **Show Keys**, copy **KEY 1** and the **Endpoint**, and store them in a notepad for later use.
+1. In the Document intelligence resource, select **Key & Endpoint** from the left menu, click **Show Keys**, copy **KEY 1** and the **Endpoint**, and store them in a notepad for later use.
 
 #### Create Translator Resource
 
 1. In the Azure portal, type **Translator (1)** in the search box and select **Translator (2)** from the results.
 
 
-2. On the **Azure AI services | Translator** blade, click **Create**.
+1. On the **Azure AI services | Translator** blade, click **Create**.
 
     
 
@@ -162,3 +160,6 @@ Azure OpenAI offers a web-based portal called **Azure OpenAI Studio** for deploy
 
 6. In the Translator resource, select **Key & Endpoint** from the left menu, click **Show Keys**, copy **KEY 1** and the **Endpoint**, and store them in a notepad for later use.
 
+## Task 3: Deploy Azure function with embeddings
+
+1. 
