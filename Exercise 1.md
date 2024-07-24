@@ -3,7 +3,7 @@
 
 ## Task 1: Deploy Azure OpenAI and Models
 
-Azure OpenAI provides a web-based portal named **Azure OpenAI Studio** that you can use to deploy, manage, and explore models. You'll start your exploration of Azure OpenAI by using Azure OpenAI Studio to deploy a model.
+Azure OpenAI offers a web-based portal called **Azure OpenAI Studio** for deploying, managing, and exploring models. Follow these steps to deploy a model using Azure OpenAI Studio:
 
 1. In the Azure portal, type **Azure OpenAI (1)** in the search box and select **Azure OpenAI (2)** from the results.
 
@@ -69,7 +69,7 @@ Azure OpenAI provides a web-based portal named **Azure OpenAI Studio** that you 
 11. Click on the **Create** button to deploy a model that you will be playing around with as you proceed.
 
 
-## Task 2: Create an Azure AI Search resources
+## Task 2: Create an Azure AI Search Resources
 
 #### Creating AI Search service
 
@@ -104,7 +104,7 @@ Azure OpenAI provides a web-based portal named **Azure OpenAI Studio** that you 
 1. In the **AI Search**, click on **Keys** under Setting from the left menu, copy the **Primary admin key**, and paste the values it a Notepad we need this value in the future exercise.
 
     
-#### Creating Document intelligence
+#### Creating Document Intelligence
 
 1. In the Azure portal, type **Document intelligence (1)** in the search box and select **Document intelligence (2)** from the results.
 
