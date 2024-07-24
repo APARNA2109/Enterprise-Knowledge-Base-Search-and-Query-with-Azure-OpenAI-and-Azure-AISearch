@@ -18,7 +18,7 @@ Azure OpenAI offers a web-based portal called **Azure OpenAI Studio** for deploy
    
     - **Subscription (1)**: Default - Pre-assigned subscription.
     
-    - **Resource group (2)**: Select openai-embedded-<inject key="Deployment ID" enableCopy="false"></inject>
+    - **Resource group (2)**: Select Openai-embedded-<inject key="Deployment ID" enableCopy="false"></inject>
     
     - **Region (3)**: Select **<inject key="Region" enableCopy="false" />**
     
@@ -84,29 +84,39 @@ Azure OpenAI offers a web-based portal called **Azure OpenAI Studio** for deploy
 
 1. In the Azure portal, type **AI Search (1)** in the search box and select **AI Search (2)** from the results.
 
+    ![](./media/24-07-2024(12).png)
 
-1. On the **Azure AI services | AI Search** blade, click **Create**.
 
+1. On the **Azure AI services | AI Search** blade, click **+ Create**.
+
+    ![](./media/24-07-2024(13).png)
+
+1. On the **Create a search service** resource page, enter the following settings:
    
-1. Create a **search service** resource with the following settings:
-   
-    - **Subscription**: Default - Pre-assigned subscription
+    - **Subscription (1)**: Default - Pre-assigned subscription
     
-    - **Resource group**: Select openai-embedded-<inject key="Deployment ID" enableCopy="false"></inject>
+    - **Resource Group (2)**: Select Openai-embedded-<inject key="Deployment ID" enableCopy="false"></inject>
+
+    - **Service name (4)**: aisearch-<inject key="Deployment ID" enableCopy="false"></inject>
     
-    - **Region**: Select <inject key="Region" enableCopy="false" />
+    - **Location (3)**: Select <inject key="Region" enableCopy="false" />
     
-    - **Name**: Aisearch-<inject key="Deployment ID" enableCopy="false"></inject>
-    
-    - **Pricing tier**: Standard
+    - **Pricing tier (5)**: Standard
+
+      ![](./media/24-07-2024(14).png)
 
 
-1. Click **Review + Create** and then **Create**.
-     
+1. Click on **Review + create** button, review the configuration, and click on **Create** button.
 
-1. Once the deployment is complete, click **Go To Resources**.
+     ![](./media/24-07-2024(15).png)
+
+1. Once the deployment is complete, click **Go to resource** button.
+
+    ![](./media/24-07-2024(16).png)
 
 1. On the overview page of the AI Search Search Service, copy the **URL** and store it in a notepad for future use.
+
+
 
 1. In the AI Search blade, click on **Keys** under Settings, copy the Primary admin key, and store it in a notepad for future use.
 
