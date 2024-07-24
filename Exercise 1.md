@@ -8,67 +8,75 @@ Azure OpenAI offers a web-based portal called **Azure OpenAI Studio** for deploy
 
 1. In the Azure portal, type **Azure OpenAI (1)** in the search box and select **Azure OpenAI (2)** from the results.
 
-1. On **Azure AI Services | Azure OpenAI** blade, click **Create**.
+    ![](./media/24-07-2024.png)
 
+1. On **Azure AI services | Azure OpenAI** blade, click on **+ Create**.
+
+    ![](./media/24-07-2024(1).png)
+
+1. On the **Create Azure OpenAI** resource page, enter the following settings and click on **Next (6)** button.
    
-1. Create an **Azure OpenAI** resource with the following settings:
-   
-    - **Subscription**: Default - Pre-assigned subscription.
+    - **Subscription (1)**: Default - Pre-assigned subscription.
     
-    - **Resource group**: Select openai-embedded-<inject key="Deployment ID" enableCopy="false"></inject>
+    - **Resource group (2)**: Select openai-embedded-<inject key="Deployment ID" enableCopy="false"></inject>
     
-    - **Region**: Select **<inject key="Region" enableCopy="false" />**
+    - **Region (3)**: Select **<inject key="Region" enableCopy="false" />**
     
-    - **Name**: Openai-<inject key="Deployment ID" enableCopy="false"></inject>
+    - **Name (4)**: Openai-<inject key="Deployment ID" enableCopy="false"></inject>
     
-    - **Pricing tier**: Standard S0
+    - **Pricing tier (5)**: Standard S0
+
+      ![](./media/24-07-2024(2).png)
+
+1. On the **Network** page, leave the value as default and click on **Next** button.
+
+    ![](./media/24-07-2024(3).png)
+
+1. On the **Tags** page, leave the value as default and click **Next** button.
+
+    ![](./media/24-07-2024(4).png)
   
-1. Click **Review + Create** and then **Create**.
-     
+1. On the **Review + submit** page, review the configuration, and click on **Create** button.
 
-1. Once the deployment is complete, click **Go To Resources**.    
+    ![](./media/24-07-2024(5).png)
 
+1. Once the deployment is complete, click on **Go to resource**.    
+
+    ![](./media/24-07-2024(6).png)
 
 #### Deploy Models in Azure OpenAI Studio
 
 1. On the Azure OpenAI overview page, click **Go to Azure OpenAI Studio** to navigate to Azure AI Studio.
 
+    ![](./media/24-07-2024(7).png)
 
+1. On the Welcome to Azure OpenAI service page, click on **Create new deployment**.
 
-1. On the Welcome to Azure OpenAI Service page, click **Create new deployment**.
+    ![](./media/24-07-2024(8).png)
 
-   
+1. On the Deployments page, click on **+ Create new deployment**.
 
-1. On the Deployments page, click **+ Create new deployment**.
+    ![](./media/24-07-2024(9).png)    
 
-   
-
-1. In the Deploy model pop-up, enter the following details:
+1. In the Deploy model pop-up, enter the following details and click on **Create (4)** button.
     
-    - **Deployment name**: text-davinci-003
+    - **Deployment name (1)**: text-davinci-003
 
-    - **Select a Model**: gpt-35-turbo-instruct
+    - **Select a model (2)**: gpt-35-turbo-instruct
     
-    - **Model version**: Auto-update to default
+    - **Tokens per Minute Rate Limit (thousands) (3)**: 40K
+
+      ![](./media/24-07-2024(10).png)
+
+1. Repeat the process to create another deployment with the following details and click on **Create (4)** button. 
+
+    - **Deployment name (1)**: text-embedding-ada-002
+
+    - **Select a model (2)**: text-embedding-ada-002
     
-    - **Tokens per Minute Rate Limit (thousands)**: 40K
+    - **Tokens per Minute Rate Limit (thousands) (3)**: 40K
 
-      
-1. Click on the **Create** button to deploy a model that you will be playing around with as you proceed.
-
-1. Repeat the process to create another deployment with the following details:   
-
-    - **Deployment name**: text-embedding-ada-002
-
-    - **Select a Model**: text-embedding-ada-002
-    
-    - **Model version**: 2(Default)
-    
-    - **Tokens per Minute Rate Limit (thousands)**: 40K
-  
-
-1. Click on the **Create** button to deploy a model that you will be playing around with as you proceed.
-
+      ![](./media/24-07-2024(11).png)
 
 ## Task 2: Create Azure AI Search Resources
 
