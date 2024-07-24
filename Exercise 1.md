@@ -162,12 +162,3 @@ Azure OpenAI offers a web-based portal called **Azure OpenAI Studio** for deploy
 
 6. In the Translator resource, select **Key & Endpoint** from the left menu, click **Show Keys**, copy **KEY 1** and the **Endpoint**, and store them in a notepad for later use.
 
-
-## Task 3: Deploy Azure function with embeddings
-
-1. In the Azure portal, type **Function App (1)** in the search box and select **Function App (2)** from the results.
-
-1. On the Function App blade, click **+ Create**.
-
-1. 
-
