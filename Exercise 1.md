@@ -178,7 +178,7 @@ Azure OpenAI offers a web-based portal called **Azure OpenAI Studio** for deploy
 
     ![](./media/24-07-2024(28).png)
 
-## Task 3: Deploy Azure function with embeddings
+## Task 3: Deploy Azure Function with Embeddings
 
 1. From the JumpVM, open **File Explorer** by selecting its icon on the Windows Taskbar.
 
