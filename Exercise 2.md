@@ -52,4 +52,9 @@
 
 ## Task 2: Add enviornment Variables and check docker deployment
 
-1. 
+1. In the left-hand menu, select **Environment variables (1)** under **Settings** and Click on **Advanced edit (2)** at the top of the page to view or modify the environment variables.
+
+
+1. In the advanced editor, clear the existing values and paste the new values you copied from the Function App into the editor.
+
+
