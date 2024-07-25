@@ -54,7 +54,23 @@
 
 1. In the left-hand menu, select **Environment variables (1)** under **Settings** and Click on **Advanced edit (2)** at the top of the page to view or modify the environment variables.
 
+    ![](./media/24-07-2024(49).png)
 
-1. In the advanced editor, clear the existing values and paste the new values you copied from the Function App into the editor.
+1. In the advanced editor, delete the current values and paste the new values you copied from the Function App in the previous exercise. Then, click **OK**.
+
+    ![](./media/24-07-2024(50).png)
+
+### Task 3: Test the web app
+
+1. Now, go to the **Overview** of the Azure Web App, click on Browse, and open the web app.
+
+    ![](./media/24-07-2024(51).png)
+
+    > **Note**: If you encounter any errors while opening the web app, restart the web app, wait for 2-3 minutes, and then try again.
+
+ 1. 
+
+
+
 
 

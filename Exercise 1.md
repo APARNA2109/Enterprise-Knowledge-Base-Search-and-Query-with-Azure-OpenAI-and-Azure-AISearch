@@ -250,11 +250,11 @@ Azure OpenAI offers a web-based portal called **Azure OpenAI Studio** for deploy
         - It then uses Azure OpenAI to generate a comprehensive answer based on the search results.
         - Finally, it returns this answer to the user.
 
-1. In the left-hand menu, select **Environment variables (1)** under **Settings** and Click on **Advanced edit (2)** to copy the environment variables.
+1. In the left-hand menu, select **Environment variables (1)** under **Settings** and Click on **Advanced edit (2)** at the top of the page to view or modify the environment variables.
 
     ![](./media/24-07-2024(48).png)
 
-1. Copy all the displayed values from the environment variables section and paste them into a notepad for next exercise.
+1. Copy all the values displayed in the environment variables section and paste them into a Notepad for the next exercise.
 
 ## Summary
 
