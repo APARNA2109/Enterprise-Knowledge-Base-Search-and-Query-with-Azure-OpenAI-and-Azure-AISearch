@@ -8,6 +8,8 @@
 
 ## Task 1: Deploy Azure OpenAI and Models
 
+In this task, You will begin by deploying an Azure OpenAI resource through the Azure portal. This involves creating an OpenAI resource, configuring it with the appropriate settings, and deploying models such as **text-davinci-003** and **text-embedding-ada-002** using Azure OpenAI Studio.
+
 Azure OpenAI offers a web-based portal called **Azure OpenAI Studio** for deploying, managing, and exploring models. Follow these steps to deploy a model using Azure OpenAI Studio:
 
 ### Deploy Azure OpenAI Resource
@@ -89,6 +91,8 @@ Azure OpenAI offers a web-based portal called **Azure OpenAI Studio** for deploy
       ![](./media/24-07-2024(11).png)
 
 ## Task 2: Create Azure AI Search Resources
+
+In this task, you will create the required Azure resources for AI Search, Document Intelligence, and Translator services. This involves setting up each service with the correct configurations, including subscription, resource group, and pricing tier, to support the document processing pipeline.
 
 ### Create AI Search Service
 
@@ -179,6 +183,8 @@ Azure OpenAI offers a web-based portal called **Azure OpenAI Studio** for deploy
     ![](./media/24-07-2024(28).png)
 
 ## Task 3: Deploy Azure Function with Embeddings
+
+In this task, you will deploy Azure Functions that automate the document processing workflow.
 
 1. From the JumpVM, open **File Explorer** by selecting its icon on the Windows Taskbar.
 
