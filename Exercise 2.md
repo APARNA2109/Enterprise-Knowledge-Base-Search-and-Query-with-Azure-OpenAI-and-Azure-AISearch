@@ -1,6 +1,10 @@
-# Exercise 2: Query and retrieval 
+# Exercise 2: Query and retrieval
 
-## Task 1: Create and deploy a web app from a Docker image 
+In this exercise, you will create and deploy a web application from a Docker image in Azure, configure environment variables, and test the deployment.
+
+## Task 1: Create and deploy a web app from a Docker image
+
+In this task, you will create a new Azure Web App resource. The web app will be set up to use a Docker container from a specified image. You will configure the app with settings for subscription, resource group, and Linux plan, and then deploy the Docker image **fruocco/oai-embeddings:latest** to the web app.
 
 1. Click on the **+ Create a resource** button on the top left corner of the Azure Portal.
 
@@ -50,7 +54,9 @@
    
     ![](./media/24-07-2024(47).png)
 
-## Task 2: Add enviornment Variables and check docker deployment
+## Task 2: Add environment Variables and check the docker deployment
+
+In this task, you will configure the necessary environment variables. This involves accessing the environment variables section in the web app settings, editing the values to match those provided in the previous exercise, and saving the changes.
 
 1. In the left-hand menu, select **Environment variables (1)** under **Settings** and Click on **Advanced edit (2)** at the top of the page to view or modify the environment variables.
 
@@ -61,6 +67,8 @@
     ![](./media/24-07-2024(50).png)
 
 ### Task 3: Test the web app
+
+In this task, you will test the functionality of the deployed web app by browsing it through the Azure Portal
 
 1. Now, go to the **Overview** of the Azure Web App, click on Browse, and open the web app.
 
