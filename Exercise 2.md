@@ -2,7 +2,6 @@
 
 ## Task 1: Create and deploy a web app from a Docker image 
 
-
 1. Click on the **+ Create a resource** button on the top left corner of the Azure Portal.
 
     ![](./media/24-07-2024(41).png)
@@ -39,7 +38,7 @@
 
    - **Access Type (2)**: Select Public
 
-   - **Image and tag (3)**: Enter fruocco/oai-batch:latest
+   - **Image and tag (3)**: Enter fruocco/oai-embeddings:latest
 
      ![](./media/24-07-2024(45).png)
 
@@ -50,5 +49,7 @@
 1. Once the deployment is complete, click on the **Go to resource** button.
    
     ![](./media/24-07-2024(47).png)
+
+## Task 2: Add enviornment Variables and check docker deployment
 
 1. 
