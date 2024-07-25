@@ -6,11 +6,11 @@ Azure OpenAI offers a web-based portal called **Azure OpenAI Studio** for deploy
 
 #### Deploy Azure OpenAI Resource
 
-1. In the Azure portal, type **Azure OpenAI (1)** in the search box and select **Azure OpenAI (2)** from the results.
+1. On the Azure portal, type **Azure OpenAI (1)** in the search box and select **Azure OpenAI (2)** from the results.
 
     ![](./media/24-07-2024(31).png)
 
-1. On **Azure AI services | Azure OpenAI** blade, click on **+ Create**.
+1. On the **Azure AI services | Azure OpenAI** blade, click on **+ Create**.
 
     ![](./media/24-07-2024(1).png)
 
@@ -43,6 +43,10 @@ Azure OpenAI offers a web-based portal called **Azure OpenAI Studio** for deploy
 1. Once the deployment is complete, click on the **Go to resource** button.
    
     ![](./media/24-07-2024(6).png)
+
+1. On the Azure OpenAI resource, select **Key & Endpoint (1)** from the left menu, click **Show Keys (2)**, copy **KEY 1 (3)** and the **Endpoint (4)**, and store them in a notepad for later use.
+
+    ![](./media/24-07-2024(36).png)
 
 #### Deploy Models in Azure OpenAI Studio
 
@@ -82,7 +86,7 @@ Azure OpenAI offers a web-based portal called **Azure OpenAI Studio** for deploy
 
 #### Create AI Search Service
 
-1. In the Azure portal, type **AI Search (1)** in the search box and select **AI Search (2)** from the results.
+1. On the Azure portal, type **AI Search (1)** in the search box and select **AI Search (2)** from the results.
 
     ![](./media/24-07-2024(12).png)
 
@@ -112,17 +116,10 @@ Azure OpenAI offers a web-based portal called **Azure OpenAI Studio** for deploy
 
     ![](./media/24-07-2024(16).png)
 
-1. On the overview page of the AI Search Search Service, copy the **URL** and store it in a notepad for future use.
 
-    ![](./media/24-07-2024(17).png)
-
-1. In the AI Search blade, click on **Keys (1)** under Settings, copy the **Primary admin key (2)**, and store it in a notepad for future use.
-
-    ![](./media/24-07-2024(18).png)
-    
 #### Create Document Intelligence Resource
 
-1. In the Azure portal, type **Document intelligence (1)** in the search box and select **Document intelligences (2)** from the results.
+1. On the Azure portal, type **Document intelligence (1)** in the search box and select **Document intelligences (2)** from the results.
 
     ![](./media/24-07-2024(19).png)
 
@@ -148,17 +145,9 @@ Azure OpenAI offers a web-based portal called **Azure OpenAI Studio** for deploy
 
     ![](./media/24-07-2024(22).png)
 
-1. Once the deployment is complete, click on the **Go to resource** button.
-
-    ![](./media/24-07-2024(23).png)
-
-1. In the Document intelligence resource, select **Key & Endpoint (1)** from the left menu, click **Show Keys (2)**, copy **KEY 1 (3)** and the **Endpoint (4)**, and store them in a notepad for later use.
-
-    ![](./media/24-07-2024(24).png)
-
 #### Create Translator Resource
 
-1. In the Azure portal, type **Translators (1)** in the search box and select **Translators (2)** from the results.
+1. On the Azure portal, type **Translators (1)** in the search box and select **Translators (2)** from the results.
 
     ![](./media/24-07-2024(25).png)
 
@@ -184,13 +173,6 @@ Azure OpenAI offers a web-based portal called **Azure OpenAI Studio** for deploy
 
     ![](./media/24-07-2024(28).png)
 
-1. Once the deployment is complete, click on the **Go to resource** button.
-   
-    ![](./media/24-07-2024(29).png)
-
-1. In the Translator resource, select **Key & Endpoint (1)** from the left menu, click **Show Keys (2)**, copy **KEY 1 (3)** and the **Endpoint (4)**, and store them in a notepad for later use.
-
-    ![](./media/24-07-2024(30).png)
 
 ## Task 3: Deploy Azure function with embeddings
 
@@ -231,6 +213,17 @@ Azure OpenAI offers a web-based portal called **Azure OpenAI Studio** for deploy
 
     ![](./media/24-07-2024(34).png)
 
+1. Once the deployment is complete, click on the **Go to resource group** button.
+
+    ![](./media/24-07-2024(37).png)
+
+1. On the **Overview** page of **Openai-embedded-<inject key="Deployment ID" enableCopy="false"></inject>** resource group, click on **Functionapp-<inject key="Deployment ID" enableCopy="false"></inject>** function app.
+
+    ![](./media/24-07-2024(40).png)
+
+1. On the **Functionapp-<inject key="Deployment ID" enableCopy="false"></inject>** function app page, review the Functions.
+
+    ![](./media/24-07-2024(39).png)
 
 
 
