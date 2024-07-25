@@ -1,1 +1,16 @@
-
+[
+    {
+      "Name": "Advanced Azure Networking with Azure Virtual WAN",
+      "Language": "English",
+      "Files": [
+        {
+          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Enterprise-Knowledge-Base-Search-and-Query-with-Azure-OpenAI-and-Azure-AISearch/main/Exercise%201.md",
+          "Order": 1
+        },
+        {
+          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Enterprise-Knowledge-Base-Search-and-Query-with-Azure-OpenAI-and-Azure-AISearch/main/Exercise%202.md",
+          "Order": 2
+        }
+      ]
+    }
+  ]
