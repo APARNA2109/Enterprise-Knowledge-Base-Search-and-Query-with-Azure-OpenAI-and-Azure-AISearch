@@ -14,7 +14,7 @@ Azure OpenAI offers a web-based portal called **Azure OpenAI Studio** for deploy
 
     ![](./media/24-07-2024(1).png)
 
-1. On the **Create Azure OpenAI** resource page, enter the following settings and click on **Next (6)** button.
+1. On the **Basics** tab of **Create Azure OpenAI** resource page, enter the following settings and click on **Next (6)** button.
    
     - **Subscription (1)**: Default - Pre-assigned subscription.
     
@@ -91,7 +91,7 @@ Azure OpenAI offers a web-based portal called **Azure OpenAI Studio** for deploy
 
     ![](./media/24-07-2024(13).png)
 
-1. On the **Create a search service** resource page, enter the following settings:
+1. On the **Basics** tab of **Create a search service** resource page, enter the following settings:
    
     - **Subscription (1)**: Default - Pre-assigned subscription
     
@@ -110,73 +110,92 @@ Azure OpenAI offers a web-based portal called **Azure OpenAI Studio** for deploy
 
      ![](./media/24-07-2024(15).png)
 
-1. Once the deployment is complete, click **Go to resource** button.
+1. Once the deployment is complete, click on **Go to resource** button.
 
     ![](./media/24-07-2024(16).png)
 
 1. On the overview page of the AI Search Search Service, copy the **URL** and store it in a notepad for future use.
 
+    ![](./media/24-07-2024(17).png)
 
+1. In the AI Search blade, click on **Keys (1)** under Settings, copy the **Primary admin key (2)**, and store it in a notepad for future use.
 
-1. In the AI Search blade, click on **Keys** under Settings, copy the Primary admin key, and store it in a notepad for future use.
-
-
+    ![](./media/24-07-2024(18).png)
     
 #### Create Document Intelligence Resource
 
-1. In the Azure portal, type **Document intelligence (1)** in the search box and select **Document intelligence (2)** from the results.
+1. In the Azure portal, type **Document intelligence (1)** in the search box and select **Document intelligences (2)** from the results.
 
+    ![](./media/24-07-2024(19).png)
 
-1. On the **Azure AI services | Document intelligence** blade, click **Create**.
+1. On the **Azure AI services | Document intelligence** blade, click on **+ Create**.
 
-    
+    ![](./media/24-07-2024(20).png)
 
-1. Create a **Document intelligence** resource with the following settings:
+1. On the **Basics** tab of **Create Document Intelligence** resource page, enter the following settings:
    
-    - **Subscription**: Default - Pre-assigned subscription.
+    - **Subscription (1)**: Default - Pre-assigned subscription.
     
-    - **Resource group**: Select openai-embedded-<inject key="Deployment ID" enableCopy="false"></inject>
+    - **Resource group (2)**: Select Openai-embedded-<inject key="Deployment ID" enableCopy="false"></inject>
     
-    - **Region**: Select <inject key="Region" enableCopy="false" />
+    - **Region (3)**: Select <inject key="Region" enableCopy="false" />
     
-    - **Name**: Document-intelligence-<inject key="Deployment ID" enableCopy="false"></inject>
+    - **Name (4)**: Document-intelligence-<inject key="Deployment ID" enableCopy="false"></inject>
     
-    - **Pricing tier**: Standard S0
-    
-    
-1. Click **Review + Create** and then **Create**.
+    - **Pricing tier (5)**: Standard S0
 
-1. Once the deployment is complete, click **Go To Resources**.
 
-1. In the Document intelligence resource, select **Key & Endpoint** from the left menu, click **Show Keys**, copy **KEY 1** and the **Endpoint**, and store them in a notepad for later use.
+      ![](./media/24-07-2024(21).png)
+    
+    
+1. Click on **Review + create** button, review the configuration, and click on **Create** button.
+
+    ![](./media/24-07-2024(22).png)
+
+1. Once the deployment is complete, click on **Go to resource** button.
+
+    ![](./media/24-07-2024(23).png)
+
+1. In the Document intelligence resource, select **Key & Endpoint (1)** from the left menu, click **Show Keys (2)**, copy **KEY 1 (3)** and the **Endpoint (4)**, and store them in a notepad for later use.
+
+    ![](./media/24-07-2024(24).png)
 
 #### Create Translator Resource
 
-1. In the Azure portal, type **Translator (1)** in the search box and select **Translator (2)** from the results.
+1. In the Azure portal, type **Translators (1)** in the search box and select **Translators (2)** from the results.
 
+    ![](./media/24-07-2024(25).png)
 
-1. On the **Azure AI services | Translator** blade, click **Create**.
+1. On the **Azure AI services | Translator** blade, click on **+ Create**.
 
-    
+    ![](./media/24-07-2024(26).png)
 
-1. Create a **Translator** resource with the following settings:
+1. On the **Basics** tab of **Create Translator** resource page, enter the following settings:
    
-    - **Subscription**: Default - Pre-assigned subscription.
+    - **Subscription (1)**: Default - Pre-assigned subscription.
     
-    - **Resource group**: openai-embedded-<inject key="Deployment ID" enableCopy="false"></inject>
+    - **Resource group (2)**: Openai-embedded-<inject key="Deployment ID" enableCopy="false"></inject>
     
-    - **Region**: Select <inject key="Region" enableCopy="false" />
+    - **Region (3)**: Select <inject key="Region" enableCopy="false" />
     
-    - **Name**: Translator-<inject key="Deployment ID" enableCopy="false"></inject>
+    - **Name (4)**: Translator-<inject key="Deployment ID" enableCopy="false"></inject>
     
-    - **Pricing tier**: Standard S1
-    
-    
-4. Click **Review + Create** and then **Create**.
+    - **Pricing tier (5)**: Standard S1 (Pay as you go)
 
-5. Once the deployment is complete, click **Go To Resources**.
+      ![](./media/24-07-2024(27).png)
+    
+    
+1. Click on **Review + create** button, review the configuration, and click on **Create** button.
 
-6. In the Translator resource, select **Key & Endpoint** from the left menu, click **Show Keys**, copy **KEY 1** and the **Endpoint**, and store them in a notepad for later use.
+    ![](./media/24-07-2024(28).png)
+
+5. Once the deployment is complete, click **Go to resource**.
+
+    ![](./media/24-07-2024(29).png)
+
+6. In the Translator resource, select **Key & Endpoint (1)** from the left menu, click **Show Keys (2)**, copy **KEY 1 (3)** and the **Endpoint (4)**, and store them in a notepad for later use.
+
+    ![](./media/24-07-2024(30).png)
 
 ## Task 3: Deploy Azure function with embeddings
 
