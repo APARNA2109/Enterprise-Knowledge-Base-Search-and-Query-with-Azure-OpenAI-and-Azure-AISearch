@@ -76,9 +76,28 @@ In this task, you will test the functionality of the deployed web app by browsin
 
     > **Note**: If you encounter any errors while opening the web app, restart the web app, wait for 2-3 minutes, and then try again.
 
- 1. 
+1. After the cold-start delay while your app's Docker image loads and starts, you'll see a page like the following image:
+
+    ![](./media/24-07-2024(52).png)
+
+1. In the left-hand menu, select **Add Document (1)** and then click on **Browse for files (2)**.
+
+    ![](./media/24-07-2024(53).png)
+
+1. Navigate to `C:\LabFiles\`, select **sample-layout** file and click **OK**.
+
+1. Once the file is uploaded, you'll see a page like the following image:
+
+    ![](./media/24-07-2024(54).png)
+
+1. To confirm, in the the Azure Portal, type **Storage accounts (1)** in the search box and select **Storage accounts (2)** from the results.
+
+1. In the left-hand menu, select **Containers** under **Data storage** and open the **Documents** container.
 
 
+1. Verify that the **sample-layout** file has been added to this container. You should also see a folder named **converted**, which contains the text version of the file processed by the Azure Functions.
 
+
+1. Return to the web app page and click on **Chat** and and ask a question related to the **sample-layout** file.
 
 
