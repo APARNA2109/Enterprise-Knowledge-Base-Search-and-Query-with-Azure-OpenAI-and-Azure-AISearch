@@ -194,4 +194,51 @@ Azure OpenAI offers a web-based portal called **Azure OpenAI Studio** for deploy
 
 ## Task 3: Deploy Azure function with embeddings
 
-1. 
+1. From the JumpVM, open **File Explorer** by selecting its icon on the Windows Taskbar.
+
+1. Navigate to `C:\LabFiles\` and double-click on the `deploy.json` file to open it. Copy the template to deploy.
+
+
+1. Navigate back to the Azure Portal, type **Deploy from a custom template (1)** in the search box and select **Deploy from a custom template (2)** from the results.
+
+    ![](./media/24-07-2024(32).png)
+
+1. Paste the template you copied in step number 2 and click on **Save** button.
+
+    ![](./media/24-07-2024(33).png)
+
+1. On the **Basics** tab of **Custom deployment** page, enter the required details given below:
+
+    |Variables	|Values|
+    |---|---|
+    |Subscription | Default - Pre-assigned subscription |
+    |Resource group | Openai-embedded-<inject key="Deployment ID" enableCopy="false"></inject> |
+    |Region | <inject key="Region" enableCopy="false" /> |
+    |Azure Cognitive Search | aisearch-<inject key="Deployment ID" enableCopy="false"></inject> |
+    |Azure Cognitive Search Sku | Standard |
+    |Hosting Plan Name | hostingplan-<inject key="Deployment ID" enableCopy="false"></inject> |
+    |Hosting Plan Sku | B3 |
+    |Storage Account Name | storage<inject key="Deployment ID" enableCopy="false"></inject> |
+    |Function Name | Functionapp-<inject key="Deployment ID" enableCopy="false"></inject> |
+    |Application Insights Name | Application-insights-<inject key="Deployment ID" enableCopy="false"></inject> |
+    |Form Recognizer Name |Document-intelligence-<inject key="Deployment ID" enableCopy="false"></inject> |
+    |Translator Name | Translator-<inject key="Deployment ID" enableCopy="false"></inject> |
+    |Open AI Name | Openai-<inject key="Deployment ID" enableCopy="false"></inject> |
+    |Open AI Key | Paste the OpenAI key that you copied in task 1 |
+
+      ![](./media/24-07-2024(35).png)
+
+1. Leave other value as default and click on **Review + create** button, review the configuration, and click on **Create** button.
+
+    ![](./media/24-07-2024(34).png)
+
+
+
+
+
+
+    
+
+
+
+
