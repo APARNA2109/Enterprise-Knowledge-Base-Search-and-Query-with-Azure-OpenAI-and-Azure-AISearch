@@ -26,7 +26,7 @@
 
       ![](./media/24-07-2024(43).png)
 
-    - **Linux Plan (6)**: Select existing plan i.e. **hostingplan-<inject key="Deployment ID" enableCopy="false"></inject> (B3)**
+    - **Linux Plan (6)**: Select an existing plan i.e. **hostingplan-<inject key="Deployment ID" enableCopy="false"></inject> (B3)**
 
       ![](./media/24-07-2024(44).png)
 

@@ -215,10 +215,40 @@ Azure OpenAI offers a web-based portal called **Azure OpenAI Studio** for deploy
 
     ![](./media/24-07-2024(37).png)
 
-1. On the **Overview** page of **Openai-embedded-<inject key="Deployment ID" enableCopy="false"></inject>** resource group, click on **Functionapp-<inject key="Deployment ID" enableCopy="false"></inject>** function app.
+1. On the **Overview** page of **Openai-embedded-<inject key="Deployment ID" enableCopy="false"></inject>** resource group, click on **Functionapp-<inject key="Deployment ID" enableCopy="false"></inject>** function app resource.
 
     ![](./media/24-07-2024(40).png)
 
-1. On the **Functionapp-<inject key="Deployment ID" enableCopy="false"></inject>** function app page, review the Functions.
+1. On the Overview page of **Functionapp-<inject key="Deployment ID" enableCopy="false"></inject>** page, review the three Functions that are present under the functions tab.
 
     ![](./media/24-07-2024(39).png)
+
+1. The Azure Functions are triggered at different stages. please find it in details:
+
+    - **BatchStartProcessing**: When a document is uploaded to Azure Storage, it automatically triggers this Azure Function. This function acts as the initial step in the document processing pipeline. Here's how it works:
+
+        - A blob trigger is set up on the Azure Function.
+        - As soon as a new file is added to the specified Azure Storage container, the function is activated.
+        - This function then initiates the document extraction process using Document intelligence.
+
+    - **BatchPushResults**: Once the paragraphs are extracted from the document, this Azure Function is triggered. This function handles two important tasks:
+
+        - If required, it translates the extracted text using Azure Translator.
+        - It then converts the processed text into embeddings using Azure OpenAI Service.
+        - This function could be triggered by a queue message or by the completion of the first function.
+
+    - **ApiQnA**: When a user submits a search query, it triggers this Azure Function. This function performs several crucial steps:
+
+        - It processes the user's query, potentially cleaning or formatting it.
+        - It performs a vector search using the query against the stored embeddings.
+        - It then uses Azure OpenAI to generate a comprehensive answer based on the search results.
+        - Finally, it returns this answer to the user.
+
+1. In the left-hand menu, select **Environment variables (1)** under **Settings** and Click on **Advanced edit (2)** to copy the environment variables.
+
+    ![](./media/24-07-2024(48).png)
+
+1. Copy all the displayed values from the environment variables section and paste them into a notepad for next exercise.
+
+
+
