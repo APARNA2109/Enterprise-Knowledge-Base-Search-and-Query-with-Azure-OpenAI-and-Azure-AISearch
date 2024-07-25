@@ -70,7 +70,7 @@ In this task, you will configure the necessary environment variables. This invol
 
 In this task, you will test the functionality of the deployed web app by browsing it through the Azure Portal
 
-1. Now, go to the **Overview** of the Azure Web App, click on Browse, and open the web app.
+1. Now, go to the **Overview** of the Azure Web App, click on **Browse (2)** to open the web app.
 
     ![](./media/24-07-2024(51).png)
 
@@ -99,5 +99,4 @@ In this task, you will test the functionality of the deployed web app by browsin
 
 
 1. Return to the web app page and click on **Chat** and and ask a question related to the **sample-layout** file.
-
 
