@@ -87,7 +87,7 @@ Azure OpenAI offers a web-based portal called **Azure OpenAI Studio** for deploy
     ![](./media/24-07-2024(12).png)
 
 
-1. On the **Azure AI services | AI Search** blade, click **+ Create**.
+1. On the **Azure AI services | AI Search** blade, click on **+ Create**.
 
     ![](./media/24-07-2024(13).png)
 
