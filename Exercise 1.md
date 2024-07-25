@@ -8,7 +8,7 @@ Azure OpenAI offers a web-based portal called **Azure OpenAI Studio** for deploy
 
 1. In the Azure portal, type **Azure OpenAI (1)** in the search box and select **Azure OpenAI (2)** from the results.
 
-    ![](./media/24-07-2024.png)
+    ![](./media/24-07-2024(31).png)
 
 1. On **Azure AI services | Azure OpenAI** blade, click on **+ Create**.
 
