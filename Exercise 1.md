@@ -116,7 +116,6 @@ Azure OpenAI offers a web-based portal called **Azure OpenAI Studio** for deploy
 
     ![](./media/24-07-2024(16).png)
 
-
 #### Create Document Intelligence Resource
 
 1. On the Azure portal, type **Document intelligence (1)** in the search box and select **Document intelligences (2)** from the results.
@@ -173,18 +172,17 @@ Azure OpenAI offers a web-based portal called **Azure OpenAI Studio** for deploy
 
     ![](./media/24-07-2024(28).png)
 
-
 ## Task 3: Deploy Azure function with embeddings
 
 1. From the JumpVM, open **File Explorer** by selecting its icon on the Windows Taskbar.
 
-1. Navigate to `C:\LabFiles\` and double-click on the `deploy.json` file to open it. Copy the template to deploy.
+1. Navigate to `C:\LabFiles\` and double-click on the `deploy.json` file to open it. Copy the template in Notepad for future deployment.
 
 1. Navigate back to the Azure Portal, type **Deploy from a custom template (1)** in the search box and select **Deploy from a custom template (2)** from the results.
 
     ![](./media/24-07-2024(32).png)
 
-1. Paste the template you copied in step number 2 and click on **Save** button.
+1. Paste the template you copied in step number 2 and click on the **Save** button.
 
     ![](./media/24-07-2024(33).png)
 
@@ -224,13 +222,3 @@ Azure OpenAI offers a web-based portal called **Azure OpenAI Studio** for deploy
 1. On the **Functionapp-<inject key="Deployment ID" enableCopy="false"></inject>** function app page, review the Functions.
 
     ![](./media/24-07-2024(39).png)
-
-
-
-
-
-    
-
-
-
-
