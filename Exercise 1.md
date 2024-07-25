@@ -28,15 +28,15 @@ Azure OpenAI offers a web-based portal called **Azure OpenAI Studio** for deploy
 
       ![](./media/24-07-2024(2).png)
 
-1. On the **Network** page, leave the value as default and click on **Next** button.
+1. On the **Network** tab, leave the value as default and click on **Next** button.
 
     ![](./media/24-07-2024(3).png)
 
-1. On the **Tags** page, leave the value as default and click **Next** button.
+1. On the **Tags** tab, leave the value as default and click on **Next** button.
 
     ![](./media/24-07-2024(4).png)
   
-1. On the **Review + submit** page, review the configuration, and click on **Create** button.
+1. On the **Review + submit** tab, review the configuration, and click on **Create** button.
 
     ![](./media/24-07-2024(5).png)
 
