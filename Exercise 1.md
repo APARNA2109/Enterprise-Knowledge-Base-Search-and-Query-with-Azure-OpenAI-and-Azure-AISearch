@@ -198,7 +198,6 @@ Azure OpenAI offers a web-based portal called **Azure OpenAI Studio** for deploy
 
 1. Navigate to `C:\LabFiles\` and double-click on the `deploy.json` file to open it. Copy the template to deploy.
 
-
 1. Navigate back to the Azure Portal, type **Deploy from a custom template (1)** in the search box and select **Deploy from a custom template (2)** from the results.
 
     ![](./media/24-07-2024(32).png)
