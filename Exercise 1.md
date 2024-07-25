@@ -40,8 +40,8 @@ Azure OpenAI offers a web-based portal called **Azure OpenAI Studio** for deploy
 
     ![](./media/24-07-2024(5).png)
 
-1. Once the deployment is complete, click on **Go to resource**.    
-
+1. Once the deployment is complete, click on the **Go to resource** button.
+   
     ![](./media/24-07-2024(6).png)
 
 #### Deploy Models in Azure OpenAI Studio
@@ -58,7 +58,7 @@ Azure OpenAI offers a web-based portal called **Azure OpenAI Studio** for deploy
 
     ![](./media/24-07-2024(9).png)    
 
-1. In the Deploy model pop-up, enter the following details and click on **Create (4)** button.
+1. In the Deploy model pop-up, enter the following details and click on the **Create (4)** button.
     
     - **Deployment name (1)**: text-davinci-003
 
@@ -68,7 +68,7 @@ Azure OpenAI offers a web-based portal called **Azure OpenAI Studio** for deploy
 
       ![](./media/24-07-2024(10).png)
 
-1. Repeat the process to create another deployment with the following details and click on **Create (4)** button. 
+1. Repeat the process to create another deployment with the following details and click on the **Create (4)** button. 
 
     - **Deployment name (1)**: text-embedding-ada-002
 
@@ -85,7 +85,6 @@ Azure OpenAI offers a web-based portal called **Azure OpenAI Studio** for deploy
 1. In the Azure portal, type **AI Search (1)** in the search box and select **AI Search (2)** from the results.
 
     ![](./media/24-07-2024(12).png)
-
 
 1. On the **Azure AI services | AI Search** blade, click on **+ Create**.
 
@@ -105,12 +104,11 @@ Azure OpenAI offers a web-based portal called **Azure OpenAI Studio** for deploy
 
       ![](./media/24-07-2024(14).png)
 
-
 1. Click on **Review + create** button, review the configuration, and click on **Create** button.
 
      ![](./media/24-07-2024(15).png)
 
-1. Once the deployment is complete, click on **Go to resource** button.
+1. Once the deployment is complete, click on the **Go to resource** button.
 
     ![](./media/24-07-2024(16).png)
 
@@ -144,15 +142,13 @@ Azure OpenAI offers a web-based portal called **Azure OpenAI Studio** for deploy
     
     - **Pricing tier (5)**: Standard S0
 
-
       ![](./media/24-07-2024(21).png)
-    
-    
+        
 1. Click on **Review + create** button, review the configuration, and click on **Create** button.
 
     ![](./media/24-07-2024(22).png)
 
-1. Once the deployment is complete, click on **Go to resource** button.
+1. Once the deployment is complete, click on the **Go to resource** button.
 
     ![](./media/24-07-2024(23).png)
 
@@ -184,16 +180,15 @@ Azure OpenAI offers a web-based portal called **Azure OpenAI Studio** for deploy
 
       ![](./media/24-07-2024(27).png)
     
-    
 1. Click on **Review + create** button, review the configuration, and click on **Create** button.
 
     ![](./media/24-07-2024(28).png)
 
-5. Once the deployment is complete, click **Go to resource**.
-
+1. Once the deployment is complete, click on the **Go to resource** button.
+   
     ![](./media/24-07-2024(29).png)
 
-6. In the Translator resource, select **Key & Endpoint (1)** from the left menu, click **Show Keys (2)**, copy **KEY 1 (3)** and the **Endpoint (4)**, and store them in a notepad for later use.
+1. In the Translator resource, select **Key & Endpoint (1)** from the left menu, click **Show Keys (2)**, copy **KEY 1 (3)** and the **Endpoint (4)**, and store them in a notepad for later use.
 
     ![](./media/24-07-2024(30).png)
 
