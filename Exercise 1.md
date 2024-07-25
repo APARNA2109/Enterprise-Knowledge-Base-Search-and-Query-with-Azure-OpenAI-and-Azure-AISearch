@@ -1,5 +1,11 @@
 # Exercise 1: Embedding Creation
 
+ In this exercise, you will gain hands-on experience in setting up a comprehensive Azure-based environment for embedding creation and document processing. The exercise is structured into two main parts:
+
+- **Configuring Azure Resources:** You will deploy and configure essential Azure services, including Azure OpenAI, Azure AI Search, Document Intelligence, and Translator. These resources are critical for the effective generation and management of document embeddings.
+
+- **Deploying Azure Functions:** You will implement Azure Functions to automate and optimize the document processing pipeline. This involves configuring functions to handle document extraction, translation, embedding generation, and query processing.
+
 ## Task 1: Deploy Azure OpenAI and Models
 
 Azure OpenAI offers a web-based portal called **Azure OpenAI Studio** for deploying, managing, and exploring models. Follow these steps to deploy a model using Azure OpenAI Studio:
@@ -249,6 +255,15 @@ Azure OpenAI offers a web-based portal called **Azure OpenAI Studio** for deploy
     ![](./media/24-07-2024(48).png)
 
 1. Copy all the displayed values from the environment variables section and paste them into a notepad for next exercise.
+
+## Summary
+
+In this exercise, you have covered the following::
+
+- **Configured Azure Resources:** Deployed and managed key services such as Azure OpenAI, Azure AI Search, Document Intelligence, and Translator, which are essential for creating and handling embeddings.
+
+- **Deployed Azure Functions:** Implemented and configured Azure Functions to automate the document processing workflow, including document extraction, translation, embedding creation, and query handling.
+
 
 
 
