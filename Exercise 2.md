@@ -137,4 +137,4 @@ In this exercise, you have explored the end-to-end process of managing and query
    - **Azure AI Search**: Retrieves the top k relevant paragraphs from the indexed documents.
    - **Azure OpenAI Answering Prompt**: Constructs a concise and contextually accurate response from the retrieved paragraphs. If required, answers can be translated back to the user's preferred language.
 
-### You have successfully completed the lab
+### You have successfully completed the lab.
