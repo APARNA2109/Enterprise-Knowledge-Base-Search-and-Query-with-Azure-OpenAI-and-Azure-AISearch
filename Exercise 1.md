@@ -188,7 +188,11 @@ In this task, you will deploy Azure Functions that automate the document process
 
 1. From the JumpVM, open **File Explorer** by selecting its icon on the Windows Taskbar.
 
-1. Navigate to `C:\LabFiles\` and double-click on the `deploy.json` file to open it. Copy the template in Notepad for future deployment.
+    ![](./media/12.png)
+
+1. Navigate to `C:\LabFiles` **(1)** and double-click on the `deploy-01.json` **(2)** file to open it. Select **Notepad (3)** and click **OK (4)**. Copy the template in Notepad for future deployment.
+
+    ![](./media/13.png)
 
 1. Navigate back to the Azure Portal, type **Deploy from a custom template (1)** in the search box and select **Deploy from a custom template (2)** from the results.
 
@@ -206,7 +210,7 @@ In this task, you will deploy Azure Functions that automate the document process
     |Resource group | Openai-embedded-<inject key="Deployment ID" enableCopy="false"></inject> |
     |Region | <inject key="Region" enableCopy="false" /> |
     |Azure Cognitive Search | aisearch-<inject key="Deployment ID" enableCopy="false"></inject> |
-    |Azure Cognitive Search Sku | Standard |
+    |Azure Cognitive Search Sku | standard |
     |Hosting Plan Name | hostingplan-<inject key="Deployment ID" enableCopy="false"></inject> |
     |Hosting Plan Sku | B3 |
     |Storage Account Name | storage<inject key="Deployment ID" enableCopy="false"></inject> |
@@ -217,11 +221,11 @@ In this task, you will deploy Azure Functions that automate the document process
     |Open AI Name | Openai-<inject key="Deployment ID" enableCopy="false"></inject> |
     |Open AI Key | Paste the OpenAI key that you copied in task 1 |
 
-      ![](./media/24-07-2024(35).png)
+      ![](./media/14.png)
 
 1. Leave other value as default and click on **Review + create** button, review the configuration, and click on **Create** button.
 
-    ![](./media/24-07-2024(34).png)
+    ![](./media/15.png)
 
 1. Once the deployment is complete, click on the **Go to resource group** button.
 
