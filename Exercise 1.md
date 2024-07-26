@@ -22,7 +22,7 @@ Azure OpenAI offers a web-based portal called **Azure OpenAI Studio** for deploy
 
     ![](./media/24-07-2024(1).png)
 
-1. On the **Basics** tab of **Create Azure OpenAI** resource page, enter the following settings and click on **Next (6)** button.
+1. On the **Basics** tab of **Create Azure OpenAI** resource page, enter the following details and click on **Next (6)** button.
    
     - **Subscription (1)**: Default - Pre-assigned subscription.
     
@@ -52,13 +52,13 @@ Azure OpenAI offers a web-based portal called **Azure OpenAI Studio** for deploy
    
     ![](./media/24-07-2024(6).png)
 
-1. On the Azure OpenAI resource, select **Key & Endpoint (1)** from the left menu, click **Show Keys (2)**, copy **KEY 1 (3)** and the **Endpoint (4)**, and store them in a notepad for later use.
+1. On the Azure OpenAI resource, select **Keys & Endpoint (1)** under Resource Management section from the left menu, click **Show Keys (2)**, copy **KEY 1 (3)** and the **Endpoint (4)**, and store them in a notepad for later use.
 
     ![](./media/24-07-2024(36).png)
 
 ### Deploy Models in Azure OpenAI Studio
 
-1. On the Azure OpenAI overview page, click **Go to Azure OpenAI Studio** to navigate to Azure AI Studio.
+1. Go to the Azure OpenAI Overview page, and click **Go to Azure OpenAI Studio** to navigate to Azure AI Studio.
 
     ![](./media/24-07-2024(7).png)
 
@@ -96,7 +96,7 @@ In this task, you will create the required Azure resources for AI Search, Docume
 
 ### Create AI Search Service
 
-1. On the Azure portal, type **AI Search (1)** in the search box and select **AI Search (2)** from the results.
+1. Navigate to the Azure portal at `portal.azure.com`, type **AI Search (1)** in the search box and select **AI Search (2)** from the results.
 
     ![](./media/24-07-2024(12).png)
 
@@ -104,7 +104,7 @@ In this task, you will create the required Azure resources for AI Search, Docume
 
     ![](./media/24-07-2024(13).png)
 
-1. On the **Basics** tab of **Create a search service** resource page, enter the following settings:
+1. On the **Basics** tab of **Create a search service** resource page, enter the following details:
    
     - **Subscription (1)**: Default - Pre-assigned subscription
     
@@ -136,7 +136,7 @@ In this task, you will create the required Azure resources for AI Search, Docume
 
     ![](./media/24-07-2024(20).png)
 
-1. On the **Basics** tab of **Create Document Intelligence** resource page, enter the following settings:
+1. On the **Basics** tab of **Create Document Intelligence** resource page, enter the following details:
    
     - **Subscription (1)**: Default - Pre-assigned subscription.
     
@@ -146,7 +146,7 @@ In this task, you will create the required Azure resources for AI Search, Docume
     
     - **Name (4)**: Document-intelligence-<inject key="Deployment ID" enableCopy="false"></inject>
     
-    - **Pricing tier (5)**: Standard S0
+    - **Pricing tier (5)**: Standard S0 (1 Call per minute for training API)
 
       ![](./media/24-07-2024(21).png)
         
@@ -164,7 +164,7 @@ In this task, you will create the required Azure resources for AI Search, Docume
 
     ![](./media/24-07-2024(26).png)
 
-1. On the **Basics** tab of **Create Translator** resource page, enter the following settings:
+1. On the **Basics** tab of **Create Translator** resource page, enter the following details:
    
     - **Subscription (1)**: Default - Pre-assigned subscription.
     
