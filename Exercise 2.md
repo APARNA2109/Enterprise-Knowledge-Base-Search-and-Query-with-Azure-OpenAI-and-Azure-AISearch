@@ -6,15 +6,15 @@ In this exercise, you will create and deploy a web application from a Docker ima
 
 In this task, you will create a new Azure Web App resource. The web app will be set up to use a Docker container from a specified image. You will configure the app with settings for subscription, resource group, and Linux plan, and then deploy the Docker image **fruocco/oai-embeddings:latest** to the web app.
 
-1. Click on the **+ Create a resource** button on the top left corner of the Azure Portal.
+1. Click on **+ Create a resource** button on the top left corner of the Azure Portal.
 
     ![](./media/24-07-2024(41).png)
 
-1. In the search box, type **Web App (1)**, select **Web App (2)** from the list of results and click on **Create (3)**.
+1. In the search box, type **Web app (1)**, select **Web App (2)** from the list of results and click on **Create (3)**.
 
     ![](./media/24-07-2024(42).png)
 
-1. On the **Basics** tab of **Create Web App** resource page, enter the following settings and click on **Next : Database > (7)** button.
+1. On the **Basics** tab of **Create Web App** resource page, enter the following details and click on **Next : Container > (7)** button.
    
     - **Subscription (1)**: Default - Pre-assigned subscription.
     
@@ -32,11 +32,9 @@ In this task, you will create a new Azure Web App resource. The web app will be 
 
     - **Linux Plan (6)**: Select an existing plan i.e. **hostingplan-<inject key="Deployment ID" enableCopy="false"></inject> (B3)**
 
-      ![](./media/24-07-2024(44).png)
+      ![](./media/16.png)
 
-1. On the **Database** tab, leave the value as default and click on **Next : Container >** button.
-
-1. On the **Container** tab, enter the following settings and click on **Next : Review + create > (4)** button.
+1. On the **Container** tab, enter the following details and click on **Next : Review + create > (4)** button.
 
    - **Image Source (1)**: Select Docker Hub or other registries
 
@@ -44,7 +42,7 @@ In this task, you will create a new Azure Web App resource. The web app will be 
 
    - **Image and tag (3)**: Enter fruocco/oai-embeddings:latest
 
-     ![](./media/24-07-2024(45).png)
+     ![](./media/17.png)
 
 1. On the **Review + submit** tab, review the configuration, and click on **Create** button.
 
@@ -66,6 +64,12 @@ In this task, you will configure the necessary environment variables. This invol
 
     ![](./media/24-07-2024(50).png)
 
+1. Click on **Apply** and then select **Confirm** to save the changes.
+
+    ![](./media/18.png)
+
+    ![](./media/19.png)
+    
 ### Task 3: Test the web app
 
 In this task, you will test the functionality of the deployed web app by browsing it through the Azure Portal
