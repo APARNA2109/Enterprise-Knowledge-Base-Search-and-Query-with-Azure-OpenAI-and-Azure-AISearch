@@ -5,26 +5,6 @@
 ## Overview 
 The purpose of this lab is to explore the capabilities of various Azure services, including Azure OpenAI, Azure AI Search, Document Intelligence, and Translator. These services offer powerful tools for natural language processing, advanced search functionality, document data extraction, and multilingual translation. By integrating these technologies, businesses can automate processes, enhance user experiences, and break down language barriers, leading to increased efficiency and global reach. This lab will provide hands-on experience in leveraging these services to solve real-world challenges.
 
-## Utilized Technical Specifications
-
-1. **Azure OpenAI Service**
-   - **Models:** GPT-3.5, GPT-4
-   - **Capabilities:** Text generation, summarization, translation, question answering
-
-2. **Azure AI Search**
-   - **Features:** Full-text search, faceted navigation, filtering, cognitive search
-   - **Integration:** REST API, Azure SDKs
-
-3. **Document Intelligence**
-   - **Document Types:** Invoices, receipts, business cards
-   - **Capabilities:** Extracts key-value pairs, tables, text
-   - **Custom Models:** Supported with labeled data
-
-4. **Azure Translator**
-   - **Modes:** Text, document, speech translation
-   - **Customization:** Custom translation models
-
-
 ## Objective
 
 By the end of this lab, you will have:
@@ -48,7 +28,7 @@ The process involves storing documents in Azure storage accounts, with optional 
 
 ## Explanation of Components
 
-- **Storage Accounts**: Used to store your documents in Azure. They act as the initial repository where documents are kept before any processing begins.
+- **Storage Accounts**: These are used to store your documents in Azure. They act as the initial repository where documents are kept before any processing begins.
 
 - **Function App**: A serverless compute service in Azure that automates tasks such as translating documents (if needed) and extracting text from them. It processes the documents and prepares the text for further steps.
 
@@ -131,3 +111,5 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
    ![](./media/10.png)
  
 Now you're all set to explore the powerful world of technology. Feel free to reach out if you have any questions along the way. Enjoy your workshop!
+
+### Happy Learning!!
