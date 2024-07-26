@@ -52,7 +52,7 @@ Azure OpenAI offers a web-based portal called **Azure OpenAI Studio** for deploy
    
     ![](./media/24-07-2024(6).png)
 
-1. On the Azure OpenAI resource, select **Keys & Endpoint (1)** under Resource Management section from the left menu, click **Show Keys (2)**, copy **KEY 1 (3)** and the **Endpoint (4)**, and store them in a notepad for later use.
+1. On the Azure OpenAI resource, select **Keys & Endpoint (1)** under **Resource Management** section from the left menu, click **Show Keys (2)**, copy **KEY 1 (3)** and the **Endpoint (4)**, and store them in a notepad for later use.
 
     ![](./media/24-07-2024(36).png)
 
@@ -247,7 +247,7 @@ In this task, you will deploy Azure Functions that automate the document process
         - As soon as a new file is added to the specified Azure Storage container, the function is activated.
         - This function then initiates the document extraction process using Document intelligence.
 
-    - **BatchPushResults**: Once the paragraphs are extracted from the document, this Azure Function is triggered. This function handles two important tasks:
+    - **BatchPushResults**: Once the paragraphs are extracted from the document, this Azure Function is triggered. This function handles two tasks:
 
         - If required, it translates the extracted text using Azure Translator.
         - It then converts the processed text into embeddings using Azure OpenAI Service.
@@ -260,7 +260,7 @@ In this task, you will deploy Azure Functions that automate the document process
         - It then uses Azure OpenAI to generate a comprehensive answer based on the search results.
         - Finally, it returns this answer to the user.
 
-1. In the left-hand menu, select **Environment variables (1)** under **Settings** and Click on **Advanced edit (2)** at the top of the page to view or modify the environment variables.
+1. In the left-hand menu, select **Environment variables (1)** under **Settings** section and Click on **Advanced edit (2)** at the top of the page to view or modify the environment variables.
 
     ![](./media/24-07-2024(48).png)
 
