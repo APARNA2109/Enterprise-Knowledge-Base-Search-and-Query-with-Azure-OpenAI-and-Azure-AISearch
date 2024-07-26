@@ -6,7 +6,7 @@ In modern enterprises, the ability to quickly and accurately extract information
 
 ### Solution Architecture
 
-![Q&A with Semantic Answering Architecture](image.png)
+![](./media/30.png)
 
 ### Workflow Breakdown
 
