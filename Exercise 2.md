@@ -116,3 +116,5 @@ In this task, you will test the functionality of the deployed web app by browsin
 
 1. Return to the web app page and click on **Chat** and and ask a question related to the **sample-layout** file.
 
+    ![](./media/26.png)
+
