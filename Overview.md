@@ -4,7 +4,9 @@
 
 In modern enterprises, the ability to quickly and accurately extract information from vast amounts of unstructured data is vital. Leveraging Azure OpenAI Service, we can build a sophisticated Q&A system that delivers precise answers from your documents, similar to the capabilities of ChatGPT. This solution integrates seamlessly with Azure AI Search and other Azure services to provide a robust and efficient information retrieval system.
 
-### Solution Architecture
+### Architecture
+
+This diagram depicts a process of embedding creation and query retrieval. The process begins with storing documents in storage accounts. The documents are then translated (optional) and extracted into text using a function app. These texts are then transformed into embeddings by an Azure OpenAI embedding model, which are stored in Azure AI Search for efficient retrieval. During the query retrieval phase, a user submits a query, which is vectorized and then used to search for matching content in Azure AI Search. The search results are then passed to an Azure OpenAI language model, which generates a response based on the retrieved content. This process leverages various Azure services like storage accounts, function apps, Azure AI Document Intelligence, Azure OpenAI embedding model, Azure AI Search, and Azure OpenAI language model.
 
 ![](./media/30.png)
 
