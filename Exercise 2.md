@@ -104,7 +104,7 @@ In this task, you will test the functionality of the deployed web app by browsin
 
     ![](./media/22.png)
 
-1. In the left-hand menu, select **Containers (1)** under **Data storage** and open the **documents (2)** container.
+1. In the left-hand menu, select **Containers (1)** under **Data storage** section and open the **documents (2)** container.
 
     ![](./media/23.png)
 
