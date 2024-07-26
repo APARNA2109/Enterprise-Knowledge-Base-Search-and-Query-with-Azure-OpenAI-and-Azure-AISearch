@@ -6,7 +6,7 @@ In this exercise, you will create and deploy a web application from a Docker ima
 
 In this task, you will create a new Azure Web App resource. The web app will be set up to use a Docker container from a specified image. You will configure the app with settings for subscription, resource group, and Linux plan, and then deploy the Docker image **fruocco/oai-embeddings:latest** to the web app.
 
-1. Click on **+ Create a resource** button on the top left corner of the Azure Portal.
+1. Click on the **+ Create a resource** button on the top left corner of the Azure Portal.
 
     ![](./media/24-07-2024(41).png)
 
@@ -74,7 +74,7 @@ In this task, you will configure the necessary environment variables. This invol
 
 In this task, you will test the functionality of the deployed web app by browsing it through the Azure Portal
 
-1. Now, go to the **Overview** of the Azure Web App, click on **Browse (2)** to open the web app.
+1. Now, go to the **Overview** of the Azure Web App, and click on **Browse (2)** to open the web app.
 
     ![](./media/24-07-2024(51).png)
 
@@ -96,7 +96,7 @@ In this task, you will test the functionality of the deployed web app by browsin
 
     ![](./media/24-07-2024(54).png)
 
-1. To confirm, in the the Azure Portal, type **Storage accounts (1)** in the search box and select **Storage accounts (2)** from the results.
+1. To confirm, in the Azure Portal, type **Storage accounts (1)** in the search box and select **Storage accounts (2)** from the results.
 
     ![](./media/21.png)
 
@@ -114,7 +114,27 @@ In this task, you will test the functionality of the deployed web app by browsin
 
     ![](./media/25.png)
 
-1. Return to the web app page and click on **Chat** and and ask a question related to the **sample-layout** file.
+1. Return to the web app page, click on **Chat** and ask a question related to the **sample-layout** file.
 
     ![](./media/26.png)
 
+## Summary
+In this exercise, you have explored the end-to-end process of managing and querying a knowledge base using Azure services. The workflow includes the following key steps:
+
+1. **Knowledge Base Storage**:
+   - **Azure Storage**: Stores unstructured documents such as PDFs, DOCX, and TXT files, providing a scalable and secure repository.
+
+2. **Data Extraction**:
+   - **Azure Document Intelligence**: Automatically extracts paragraphs and dialogues from the raw documents, converting unstructured data into structured formats for further processing.
+   - **Azure Translator (Optional)**: Translates extracted text into the desired language, ensuring the system can handle multilingual queries and documents.
+
+3. **Text Embedding and Indexing**:
+   - **Azure OpenAI Service Embeddings**: Converts the extracted text into high-dimensional vectors, encapsulating semantic meaning and context.
+   - **Azure AI Search**: Indexes these embeddings, enabling fast and efficient vector-based searches across the knowledge base.
+
+4. **Search and Answering**:
+   - **Vector Search**: Uses Azure OpenAI Embeddings to perform a semantic search, matching user queries to the most relevant documents based on vector similarity.
+   - **Azure AI Search**: Retrieves the top k relevant paragraphs from the indexed documents.
+   - **Azure OpenAI Answering Prompt**: Constructs a concise and contextually accurate response from the retrieved paragraphs. If required, answers can be translated back to the user's preferred language.
+
+### You have successfully completed the lab
