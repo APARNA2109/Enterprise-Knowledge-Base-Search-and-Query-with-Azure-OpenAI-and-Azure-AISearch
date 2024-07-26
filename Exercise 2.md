@@ -69,7 +69,7 @@ In this task, you will configure the necessary environment variables. This invol
     ![](./media/18.png)
 
     ![](./media/19.png)
-    
+
 ### Task 3: Test the web app
 
 In this task, you will test the functionality of the deployed web app by browsing it through the Azure Portal
@@ -84,11 +84,13 @@ In this task, you will test the functionality of the deployed web app by browsin
 
     ![](./media/24-07-2024(52).png)
 
-1. In the left-hand menu, select **Add Document (1)** and then click on **Browse for files (2)**.
+1. In the left-hand menu, select **Add Document (1)** and then click on **Browse files (2)**.
 
     ![](./media/24-07-2024(53).png)
 
-1. Navigate to `C:\LabFiles\`, select **sample-layout** file and click **OK**.
+1. Navigate to `C:\LabFiles` **(1)**, select **sample-layout (2)** file and click **OK (3)**.
+
+    ![](./media/20.png)
 
 1. Once the file is uploaded, you'll see a page like the following image:
 
@@ -96,11 +98,21 @@ In this task, you will test the functionality of the deployed web app by browsin
 
 1. To confirm, in the the Azure Portal, type **Storage accounts (1)** in the search box and select **Storage accounts (2)** from the results.
 
-1. In the left-hand menu, select **Containers** under **Data storage** and open the **Documents** container.
+    ![](./media/21.png)
 
+1. On the Storage accounts page, select **storage<inject key="Deployment ID" enableCopy="false"></inject>**.
+
+    ![](./media/22.png)
+
+1. In the left-hand menu, select **Containers (1)** under **Data storage** and open the **documents (2)** container.
+
+    ![](./media/23.png)
 
 1. Verify that the **sample-layout** file has been added to this container. You should also see a folder named **converted**, which contains the text version of the file processed by the Azure Functions.
 
+    ![](./media/24.png)
+
+    ![](./media/25.png)
 
 1. Return to the web app page and click on **Chat** and and ask a question related to the **sample-layout** file.
 
