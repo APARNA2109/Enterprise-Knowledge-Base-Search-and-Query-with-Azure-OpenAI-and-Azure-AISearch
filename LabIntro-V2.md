@@ -1,6 +1,6 @@
 # Getting Started with Your Enterprise Knowledge Base Search and Query with Azure OpenAI and Azure AI Search Workshop
  
-Welcome to your Enterprise Knowledge Base Search and Query with Azure OpenAI and Azure Ai Search workshop! We've prepared a seamless environment for you to explore and learn about Azure services such as Azure OpenAI, Azure AI Search, Document Intelligence, and Translator. Let's begin by making the most of this experience:
+Welcome to your Enterprise Knowledge Base Search and Query with Azure OpenAI and Azure AI Search workshop! We've prepared a seamless environment for you to explore and learn about Azure services such as Azure OpenAI, Azure AI Search, Document Intelligence, and Translator. Let's begin by making the most of this experience:
  
 ## Accessing Your Lab Environment
  
