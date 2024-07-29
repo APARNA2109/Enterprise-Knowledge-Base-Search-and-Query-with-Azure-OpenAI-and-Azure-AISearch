@@ -235,11 +235,11 @@ In this task, you will deploy Azure Functions that automate the document process
 
     ![](./media/24-07-2024(40).png)
 
-1. On the Overview page of **Functionapp-<inject key="Deployment ID" enableCopy="false"></inject>** page, review the three Functions that are present under the functions tab.
+1. On the Overview page of **Functionapp-<inject key="Deployment ID" enableCopy="false"></inject>** page, review the three functions that are present under the **Functions** tab.
 
     ![](./media/24-07-2024(39).png)
 
-1. The Azure Functions are triggered at different stages. please find it in details:
+1. The Azure Functions are triggered at different stages. please find it in detail:
 
     - **BatchStartProcessing**: When a document is uploaded to Azure Storage, it automatically triggers this Azure Function. This function acts as the initial step in the document processing pipeline. Here's how it works:
 
@@ -253,7 +253,7 @@ In this task, you will deploy Azure Functions that automate the document process
         - It then converts the processed text into embeddings using Azure OpenAI Service.
         - This function could be triggered by a queue message or by the completion of the first function.
 
-    - **ApiQnA**: When a user submits a search query, it triggers this Azure Function. This function performs several crucial steps:
+    - **ApiQnA**: When a user submits a search query, this Azure Function is triggered. This function performs several crucial steps:
 
         - It processes the user's query, potentially cleaning or formatting it.
         - It performs a vector search using the query against the stored embeddings.
