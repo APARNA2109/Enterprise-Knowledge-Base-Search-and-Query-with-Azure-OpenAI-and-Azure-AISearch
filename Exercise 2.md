@@ -170,7 +170,11 @@ In this task, you will test the functionality of the deployed web app by browsin
 
     ![](./media/35.png)
 
-1. You can click on **Sources** to obtain the converted file in text format. 
+1. You can click on **Sources** to obtain the converted file in text format.
+
+    ![](./media/40.png)
+
+    ![](./media/41.png)
 
 ## Summary
 In this exercise, you have explored the end-to-end process of managing and querying a knowledge base using Azure services. The workflow includes the following key steps:
