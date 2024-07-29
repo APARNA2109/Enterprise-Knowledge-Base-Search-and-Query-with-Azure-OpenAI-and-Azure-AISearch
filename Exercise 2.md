@@ -88,7 +88,7 @@ In this task, you will test the functionality of the deployed web app by browsin
 
     ![](./media/24-07-2024(53).png)
 
-1. Navigate to `C:\LabFiles` **(1)**, select **sample-layout (2)** file and click **OK (3)**.
+1. Navigate to `C:\LabFiles` **(1)**, select **sample-layout (2)** file and click **Open (3)**.
 
     ![](./media/20.png)
 
@@ -114,7 +114,7 @@ In this task, you will test the functionality of the deployed web app by browsin
 
     ![](./media/25.png)
 
-1. Return to the web app page, click on **Chat** and ask a question related to the **sample-layout** file.Below are the questions you can ask:
+1. Return to the web app page, click on **Chat** and ask a question related to the **sample-layout** file. Below are the questions you can ask:
 
     ```
     Give me an overview about sample layout
@@ -136,13 +136,13 @@ In this task, you will test the functionality of the deployed web app by browsin
 
     ![](./media/28.png)
 
-1. Once the file is opened, verify that it is in German language. We will then use the web app to translate the file into English and provide the results using OpenAI Chat.
+1. Once the file is opened, verify that it is in **German language**. We will then use the web app to translate the file into English and provide the results using OpenAI Chat.
 
 1. Return to the web app page, in the left-hand menu, select **Add Document (1)**, check the box for **Translate document to English (2)** and then click on **Browse files (3)**.
 
     ![](./media/29.png)
     
-1. Navigate to `C:\LabFiles` **(1)**, select **Emil und die Detektive book (2)** file and click **OK (3)**.
+1. Navigate to `C:\LabFiles` **(1)**, select **Emil und die Detektive book (2)** file and click **Open (3)**.
 
     ![](./media/31.png)
 
@@ -159,18 +159,18 @@ In this task, you will test the functionality of the deployed web app by browsin
 1. Return to the web app page, click on **Chat** and ask a question related to the **Emil und die Detektive book** file. Below are the questions you can ask:
 
     ```
-    What is the name of the main character in the book?
-    ```
-
-    ![](./media/35.png)
-
-    ```
     Give me an overview about this book
     ```
 
     ![](./media/36.png)
 
+    ```
+    What is the name of the main character in the book?
+    ```
 
+    ![](./media/35.png)
+
+1. You can click on **Sources** to obtain the converted file in text format. 
 
 ## Summary
 In this exercise, you have explored the end-to-end process of managing and querying a knowledge base using Azure services. The workflow includes the following key steps:
