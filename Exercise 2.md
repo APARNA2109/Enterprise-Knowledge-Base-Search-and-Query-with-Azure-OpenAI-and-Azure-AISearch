@@ -136,7 +136,7 @@ In this task, you will test the functionality of the deployed web app by browsin
 
     ![](./media/28.png)
 
-1. Once the file is opened, verify that it is in **German language**. We will then use the web app to translate the file into English and provide the results using OpenAI Chat.
+1. Once the file is opened, verify that it is in **German language**. We will then use the web app to translate the file into English and obtain the results using OpenAI Chat.
 
 1. Return to the web app page, in the left-hand menu, select **Add Document (1)**, check the box for **Translate document to English (2)** and then click on **Browse files (3)**.
 
