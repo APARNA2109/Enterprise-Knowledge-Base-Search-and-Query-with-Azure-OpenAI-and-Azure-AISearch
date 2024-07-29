@@ -170,6 +170,30 @@ In this task, you will test the functionality of the deployed web app by browsin
 
     ![](./media/35.png)
 
+    ### How the File Translation is Managed?
+
+    - The end-to-end process of managing and querying a knowledge base using Azure services. The workflow includes the following key steps:
+
+        - **Knowledge Base Storage**:
+            - **Azure Storage**: Stores unstructured documents such as PDFs, DOCX, and TXT files, providing a scalable and secure repository.
+
+        - **Data Extraction**:
+            - **Azure Document Intelligence**: Automatically extracts paragraphs and dialogues from the raw documents, converting unstructured data into structured formats for further processing.
+            
+            - **Azure Translator**: Translates extracted text into the desired language, ensuring the system can handle multilingual queries and documents.
+
+        - **Text Embedding and Indexing**:
+            - **Azure OpenAI Service Embeddings**: Converts the extracted text into high-dimensional vectors, encapsulating semantic meaning and context.
+            
+            - **Azure AI Search**: Indexes these embeddings, enabling fast and efficient vector-based searches across the knowledge base.
+
+        - **Search and Answering**:
+            - **Vector Search**: Uses Azure OpenAI Embeddings to perform a semantic search, matching user queries to the most relevant documents based on vector similarity.
+            
+            - **Azure AI Search**: Retrieves the top k relevant paragraphs from the indexed documents.
+
+            - **Azure OpenAI Answering Prompt**: Constructs a concise and contextually accurate response from the retrieved paragraphs. If required, answers can be translated back to the user's preferred language.
+
 1. You can click on **Sources** to obtain the converted file in text format.
 
     ![](./media/40.png)
@@ -177,22 +201,13 @@ In this task, you will test the functionality of the deployed web app by browsin
     ![](./media/41.png)
 
 ## Summary
-In this exercise, you have explored the end-to-end process of managing and querying a knowledge base using Azure services. The workflow includes the following key steps:
+In this exercise, you have covered the following:
 
-1. **Knowledge Base Storage**:
-   - **Azure Storage**: Stores unstructured documents such as PDFs, DOCX, and TXT files, providing a scalable and secure repository.
+- **Deployed Web App**: Created a Web App resource with Docker container settings and deployed the fruocco/oai-embeddings:latest image.
 
-2. **Data Extraction**:
-   - **Azure Document Intelligence**: Automatically extracts paragraphs and dialogues from the raw documents, converting unstructured data into structured formats for further processing.
-   - **Azure Translator (Optional)**: Translates extracted text into the desired language, ensuring the system can handle multilingual queries and documents.
+- **Configured Environment Variables**: Set up the necessary environment variables in the Web App settings.
 
-3. **Text Embedding and Indexing**:
-   - **Azure OpenAI Service Embeddings**: Converts the extracted text into high-dimensional vectors, encapsulating semantic meaning and context.
-   - **Azure AI Search**: Indexes these embeddings, enabling fast and efficient vector-based searches across the knowledge base.
+- **Tested and Verified**: Uploaded and processed documents, verified translations, and interacted with the web app to ensure functionality.
 
-4. **Search and Answering**:
-   - **Vector Search**: Uses Azure OpenAI Embeddings to perform a semantic search, matching user queries to the most relevant documents based on vector similarity.
-   - **Azure AI Search**: Retrieves the top k relevant paragraphs from the indexed documents.
-   - **Azure OpenAI Answering Prompt**: Constructs a concise and contextually accurate response from the retrieved paragraphs. If required, answers can be translated back to the user's preferred language.
 
 ### You have successfully completed the lab.

@@ -268,7 +268,7 @@ In this task, you will deploy Azure Functions that automate the document process
 
 ## Summary
 
-In this exercise, you have covered the following::
+In this exercise, you have covered the following:
 
 - **Configured Azure Resources:** Deployed and managed key services such as Azure OpenAI, Azure AI Search, Document Intelligence, and Translator, which are essential for creating and handling embeddings.
 
