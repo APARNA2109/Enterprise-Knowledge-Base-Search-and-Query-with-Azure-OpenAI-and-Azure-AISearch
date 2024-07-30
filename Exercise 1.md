@@ -52,7 +52,7 @@ Azure OpenAI offers a web-based portal called **Azure OpenAI Studio** for deploy
    
     ![](./media/24-07-2024(6).png)
 
-1. On the Azure OpenAI resource, select **Keys & Endpoint (1)** under **Resource Management** section from the left menu, click **Show Keys (2)**, copy **KEY 1 (3)** and the **Endpoint (4)**, and store them in a notepad for later use.
+1. On the Azure OpenAI resource, select **Keys & Endpoint (1)** under the **Resource Management** section from the left menu, click **Show Keys (2)**, copy **KEY 1 (3)**, and store them in a notepad for later use.
 
     ![](./media/24-07-2024(36).png)
 
@@ -273,7 +273,3 @@ In this exercise, you have covered the following:
 - **Configured Azure Resources:** Deployed and managed key services such as Azure OpenAI, Azure AI Search, Document Intelligence, and Translator, which are essential for creating and handling embeddings.
 
 - **Deployed Azure Functions:** Implemented and configured Azure Functions to automate the document processing workflow, including document extraction, translation, embedding creation, and query handling.
-
-
-
-
