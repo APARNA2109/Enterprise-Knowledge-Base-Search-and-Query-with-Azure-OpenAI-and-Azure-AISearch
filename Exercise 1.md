@@ -198,6 +198,10 @@ In this task, you will deploy Azure Functions that automate the document process
 
     ![](./media/24-07-2024(32).png)
 
+1. On the **Custom deployment** page, click on **Build your own template in the editor**.
+
+    ![](./media/42.png)
+
 1. Paste the template you copied in step number 2 and click on the **Save** button.
 
     ![](./media/24-07-2024(33).png)
@@ -223,7 +227,7 @@ In this task, you will deploy Azure Functions that automate the document process
 
       ![](./media/14.png)
 
-1. Leave other value as default and click on **Review + create** button, review the configuration, and click on **Create** button.
+1. Leave the other value as default and click on **Review + create** button, review the configuration, and click on **Create** button.
 
     ![](./media/15.png)
 
