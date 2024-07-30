@@ -44,7 +44,7 @@ In this task, you will create a new Azure Web App resource. The web app will be 
 
      ![](./media/17.png)
 
-1. On the **Review + submit** tab, review the configuration, and click on **Create** button.
+1. On the **Review + create** tab, review the configuration, and click on **Create** button.
 
     ![](./media/24-07-2024(46).png)
 
@@ -72,7 +72,7 @@ In this task, you will configure the necessary environment variables. This invol
 
 ### Task 3: Test the web app
 
-In this task, you will test the functionality of the deployed web app by browsing it through the Azure Portal
+In this task, you will test the functionality of the deployed web app by browsing it through the Azure Portal.
 
 1. Now, go to the **Overview** of the Azure Web App, and click on **Browse (2)** to open the web app.
 
