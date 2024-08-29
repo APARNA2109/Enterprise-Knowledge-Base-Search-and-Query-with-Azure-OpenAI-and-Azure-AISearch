@@ -3,7 +3,7 @@
 ## Overall Estimated Duration: 2 Hours
 
 ## Overview 
-The purpose of this lab is to explore the capabilities of various Azure services, including Azure OpenAI, Azure AI Search, Document Intelligence, and Translator. These services offer powerful tools for natural language processing, advanced search functionality, document data extraction, and multilingual translation. By integrating these technologies, businesses can automate processes, enhance user experiences, and break down language barriers, leading to increased efficiency and global reach. This lab will provide hands-on experience in leveraging these services to solve real-world challenges.
+The purpose of this lab is to explore the capabilities of various Azure services, including Azure OpenAI, Azure AI Search (Formerly known as Cognitive Search), Document Intelligence (Formerly known as Form Recognizer), and Translator. These services offer powerful tools for natural language processing, advanced search functionality, document data extraction, and multilingual translation. By integrating these technologies, businesses can automate processes, enhance user experiences, and break down language barriers, leading to increased efficiency and global reach. This lab will provide hands-on experience in leveraging these services to solve real-world challenges.
 
 ## Objective
 
