@@ -1,6 +1,16 @@
 # Exercise 2: Query and retrieval
 
+## Estimated time: 60 minutes
+
 In this exercise, you will create and deploy a web application from a Docker image in Azure, configure environment variables, and test the deployment.
+
+## Lab objectives
+
+In this lab, you will complete the following tasks:
+
+- Task 1: Create and deploy a web app from a Docker image
+- Task 2: Add environment Variables and check the docker deployment
+- Task 3: Test the web app
 
 ## Task 1: Create and deploy a web app from a Docker image
 
@@ -201,13 +211,12 @@ In this task, you will test the functionality of the deployed web app by browsin
     ![](./media/41.png)
 
 ## Summary
-In this exercise, you have covered the following:
 
-- **Deployed Web App**: Created a Web App resource with Docker container settings and deployed the fruocco/oai-embeddings:latest image.
+In this lab, you have accomplished the following:
 
-- **Configured Environment Variables**: Set up the necessary environment variables in the Web App settings.
-
-- **Tested and Verified**: Uploaded and processed documents, verified translations, and interacted with the web app to ensure functionality.
+- Created and deployed a web app from a Docker image
+- Added environment variables and checked the Docker deployment
+- Tested the web app
 
 
 ### You have successfully completed the lab.

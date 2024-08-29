@@ -1,10 +1,19 @@
 # Exercise 1: Embedding Creation
 
- In this exercise, you will gain hands-on experience in setting up a comprehensive Azure-based environment for embedding creation and document processing. The exercise is structured into two main parts:
+## Estimated time: 60 minutes
 
-- **Configuring Azure Resources:** You will deploy and configure essential Azure services, including Azure OpenAI, Azure AI Search, Document Intelligence, and Translator. These resources are critical for the effective generation and management of document embeddings.
+In this exercise, you will gain hands-on experience in setting up a comprehensive Azure-based environment for embedding creation and document processing. The exercise is structured into two main parts:
+
+- **Configuring Azure Resources:** You will deploy and configure essential Azure services, including Azure OpenAI, Azure AI Search (Formerly known as: Cognitive Search), Document Intelligence (Formerly know as: Form Recognizer), and Translator. These resources are critical for the effective generation and management of document embeddings.
 
 - **Deploying Azure Functions:** You will implement Azure Functions to automate and optimize the document processing pipeline. This involves configuring functions to handle document extraction, translation, embedding generation, and query processing.
+
+## Lab objectives
+In this lab, you will complete the following tasks:
+
+- Task 1: Deploy Azure OpenAI and Models
+- Task 2: Create Azure AI Search Resources
+- Task 3: Deploy Azure Function with Embeddings
 
 ## Task 1: Deploy Azure OpenAI and Models
 
@@ -272,8 +281,10 @@ In this task, you will deploy Azure Functions that automate the document process
 
 ## Summary
 
-In this exercise, you have covered the following:
+In this lab, you have accomplished the following:
 
-- **Configured Azure Resources:** Deployed and managed key services such as Azure OpenAI, Azure AI Search, Document Intelligence, and Translator, which are essential for creating and handling embeddings.
+- Provisioned an Azure OpenAI resource
+- Deployed an OpenAI model within the Azure OpenAI studio
+- Integrated Azure OpenAI models into your applications
 
-- **Deployed Azure Functions:** Implemented and configured Azure Functions to automate the document processing workflow, including document extraction, translation, embedding creation, and query handling.
+
