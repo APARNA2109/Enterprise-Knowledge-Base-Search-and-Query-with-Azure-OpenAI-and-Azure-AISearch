@@ -6,7 +6,7 @@ In this exercise, you will create and deploy a web application from a Docker ima
 
 ## Lab objectives
 
-In this lab, you will complete the following tasks:
+In this exercise, you will complete the following tasks:
 
 - Task 1: Create and deploy a web app from a Docker image
 - Task 2: Add environment Variables and check the docker deployment
@@ -212,11 +212,10 @@ In this task, you will test the functionality of the deployed web app by browsin
 
 ## Summary
 
-In this lab, you have accomplished the following:
+In this exercise, you have accomplished the following:
 
 - Created and deployed a web app from a Docker image
 - Added environment variables and checked the Docker deployment
 - Tested the web app
-
 
 ### You have successfully completed the lab.
