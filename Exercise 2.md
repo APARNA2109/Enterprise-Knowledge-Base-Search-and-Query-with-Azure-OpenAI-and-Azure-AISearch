@@ -1,6 +1,6 @@
 # Exercise 2: Query and retrieval
 
-## Estimated time: 60 minutes
+### Estimated time: 60 minutes
 
 In this exercise, you will create and deploy a web application from a Docker image in Azure, configure environment variables, and test the deployment.
 
