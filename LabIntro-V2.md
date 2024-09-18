@@ -15,8 +15,14 @@ By the end of this lab, you will have:
 
 
 ## Pre-Requisites
-You should have a basic understanding of **Azure services**, including **Azure OpenAI**, **Azure AI Search**, and **Translator**. Experience in deploying **web applications** and **Azure Functions** is also required.
 
+Participants should have:
+
+- **Basic Understanding of Azure Services:** Familiarity with Azure's ecosystem and its core services helps in navigating the platform effectively.
+- **Familiarity with Natural Language Processing (NLP) Concepts:** Understanding NLP fundamentals is essential for leveraging language models in AI applications.
+- **Experience with APIs:** Knowledge of how to interact with APIs is crucial for integrating Azure OpenAI and Azure AI Search into applications.
+- **Knowledge of Search Technologies:** Familiarity with search algorithms and indexing improves the implementation of effective search solutions.
+- **Proficiency in Programming Languages (e.g., Python, C#):** Basic programming skills are necessary for developing and customizing applications using Azure services.
 
 ## Architecture
 
@@ -28,18 +34,14 @@ The process involves storing documents in Azure storage accounts, with optional 
 
 ## Explanation of Components
 
+The architecture for this lab involves the following key components:
+
 - **Storage Accounts**: These are used to store your documents in Azure. They act as the initial repository where documents are kept before any processing begins.
-
 - **Function App**: A serverless compute service in Azure that automates tasks such as translating documents (if needed) and extracting text from them. It processes the documents and prepares the text for further steps.
-
 - **Azure OpenAI Embedding Model**: Converts the extracted text into embeddings, which are vector representations capturing the semantic meaning of the text. These embeddings are used for efficient content retrieval.
-
 - **Azure AI Search (Cognitive Search)**: Stores the embeddings and enables powerful search capabilities. It allows for fast and accurate retrieval of relevant content based on similarity to a user’s query.
-
 - **Azure OpenAI Language Model**: Utilises the search results from Azure AI Search to generate a response. It applies advanced language processing to create coherent and contextually appropriate answers.
-
 - **Document Intelligence (Form Recognizer)**: Provides capabilities to extract structured information from various types of documents, such as invoices and receipts, which can be used to enrich the data before embedding.
-
 - **Translator**: An optional service that translates text into different languages, making the content accessible to users who speak different languages.
 
 ## Accessing Your Lab Environment
@@ -90,21 +92,29 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
  
    ![](./media/7.png)
 
-2. You'll see the **Sign into Microsoft Azure** tab. Here, enter your credentials:
+2. On the **Sign in to Microsoft Azure** tab you will see the login screen, in that enter the following email/username, and click on **Next**.
  
    - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
  
      ![](./media/8.png)
  
-3. Next, provide your password:
+3. Now enter the following password and click on **Sign in**.
  
    - **Password:** <inject key="AzureAdUserPassword"></inject>
  
      ![](./media/9.png)
  
-4. If prompted to stay signed in, you can click "**No**".
- 
-5. If a **Welcome to Microsoft Azure** pop-up window appears, simply click "**Cancel**" to skip the tour.
+1. If you see the pop-up Action Required, click Ask Later.
+
+   ![](media/asklater.png)
+
+   >**NOTE:** Do not enable MFA, select **Ask Later**.
+     
+1. If you see the pop-up **Stay Signed in?**, select **No**.
+
+1. If you see the pop-up **You have free Azure Advisor recommendations!**, close the window to continue the lab.
+
+1. If a **Welcome to Microsoft Azure** popup window appears, select **Maybe Later** to skip the tou
    
 ## Support Contact
  
