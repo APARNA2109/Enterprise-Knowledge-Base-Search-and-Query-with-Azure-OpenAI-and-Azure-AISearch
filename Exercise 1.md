@@ -1,6 +1,6 @@
 # Exercise 1: Embedding Creation
 
-## Estimated time: 60 minutes
+### Estimated time: 60 minutes
 
 In this exercise, you will gain hands-on experience in setting up a comprehensive Azure-based environment for embedding creation and document processing. The exercise is structured into two main parts:
 
@@ -9,7 +9,8 @@ In this exercise, you will gain hands-on experience in setting up a comprehensiv
 - **Deploying Azure Functions:** You will implement Azure Functions to automate and optimize the document processing pipeline. This involves configuring functions to handle document extraction, translation, embedding generation, and query processing.
 
 ## Lab objectives
-In this lab, you will complete the following tasks:
+
+In this exercise, you will complete the following tasks:
 
 - Task 1: Deploy Azure OpenAI and Models
 - Task 2: Create Azure AI Search Resources
@@ -281,10 +282,10 @@ In this task, you will deploy Azure Functions that automate the document process
 
 ## Summary
 
-In this lab, you have accomplished the following:
+In this exercise, you have accomplished the following:
 
 - Provisioned an Azure OpenAI resource
 - Deployed an OpenAI model within the Azure OpenAI studio
 - Integrated Azure OpenAI models into your applications
 
-
+### You have successfully completed the lab
