@@ -10,9 +10,9 @@ The purpose of this lab is to explore the capabilities of various Azure services
 
 By the end of this lab, you will have:
 
-- **Embedding Creation**: This hands-on exercise will give you practical experience in setting up and configuring Azure services, including Azure OpenAI, Azure AI Search (Formerly known as Cognitive Search), Document Intelligence (Formerly known as Form Recognizer), and Translator. You will deploy and manage Azure Functions to automate and optimise tasks such as document extraction, translation, embedding generation, and query handling. Additionally, you will gain a comprehensive understanding of the end-to-end process involved in creating and managing document embeddings within an Azure-based environment.
+- **Embedding Creation**: Develop high-quality embeddings for documents and queries within the enterprise knowledge base to enhance semantic understanding and improve search relevance. This involves leveraging Azure OpenAI to generate contextually rich embeddings that capture the nuances of the information, allowing for more accurate comparisons between user queries and stored knowledge.
 
-- **Query and Retrieval**: This hands-on exercise will guide you through creating and deploying a web application using a Docker image in Azure. You will configure the necessary environment variables and test the deployment to ensure the application operates effectively. This will enable you to perform efficient query and retrieval operations within your Azure environment.
+- **Query and Retrieval**: Implement an efficient query and retrieval system using Azure AI Search that utilizes the embeddings created to facilitate rapid, accurate responses to user inquiries. The goal is to optimize the search process by enabling semantic search capabilities, ensuring that users can easily find relevant information within the knowledge base, thus improving overall productivity and decision-making.
 
 
 ## Prerequisites
