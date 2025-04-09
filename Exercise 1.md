@@ -1,6 +1,6 @@
 # Exercise 1: Embedding Creation
 
-### Estimated time: 60 minutes
+### Estimated Duration: 120 minutes
 
 In this exercise, you will gain hands-on experience in setting up a comprehensive Azure-based environment for embedding creation and document processing. The exercise is structured into two main parts:
 
