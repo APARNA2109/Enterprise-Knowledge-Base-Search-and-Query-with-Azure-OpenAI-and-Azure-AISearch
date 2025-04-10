@@ -1,6 +1,6 @@
 # Enterprise Knowledge Base Search and Query with Azure OpenAI and Azure AI Search
 
-### Overall Estimated Duration: 2 Hours
+### Overall Estimated Duration: 4 Hours
 
 ## Overview 
 
@@ -45,6 +45,10 @@ The architecture for this lab involves the following key components:
 - **Document Intelligence (Form Recognizer)**: Provides capabilities to extract structured information from various types of documents, such as invoices and receipts, which can be used to enrich the data before embedding.
 - **Translator**: An optional service that translates text into different languages, making the content accessible to users who speak different languages.
 
+## Getting Started with the Lab
+ 
+Welcome to your Enterprise Knowledge Base Search and Query with Azure OpenAI and Azure AI Search workshop! We've prepared a seamless environment for you to explore and learn about Azure services. Let's begin by making the most of this experience:
+
 ## Accessing Your Lab Environment
  
 Once you're ready to dive in, your virtual machine and lab guide will be right at your fingertips within your web browser.
@@ -72,7 +76,13 @@ For convenience, you can open the lab guide in a separate window by selecting th
 Feel free to start, stop, or restart your virtual machine as needed from the **Resources** tab. Your experience is in your hands!
  
 ![](./media/4.png)
- 
+
+## Lab Guide Zoom In/Zoom Out
+
+To adjust the zoom level for the environment page, click the **A↕ : 100%** icon located next to the timer in the lab environment.
+
+   ![](media/labzoom-1.png)
+
 ## Lab Duration Extension
 
 1. To extend the duration of the lab, kindly click the **Hourglass** icon in the top right corner of the lab environment. 
@@ -113,9 +123,11 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
      
 1. If you see the pop-up **Stay Signed in?**, select **No**.
 
+   ![](media/Sign-in-no.png)
+
 1. If you see the pop-up **You have free Azure Advisor recommendations!**, close the window to continue the lab.
 
-1. If a **Welcome to Microsoft Azure** popup window appears, select **Maybe Later** to skip the tou
+1. If a **Welcome to Microsoft Azure** popup window appears, select **Cancel** to skip the tour.
    
 ## Support Contact
  
