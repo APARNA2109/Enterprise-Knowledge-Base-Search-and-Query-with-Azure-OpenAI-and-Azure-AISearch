@@ -26,11 +26,11 @@ Azure OpenAI offers a web-based portal called **Azure OpenAI Studio** for deploy
 
 1. On the Azure portal, type **Azure OpenAI (1)** in the search box and select **Azure OpenAI (2)** from the results.
 
-    ![](./media/24-07-2024(31).png)
+    ![](./media/openai1.png)
 
 1. On the **Azure AI services | Azure OpenAI** blade, click on **+ Create**.
 
-    ![](./media/24-07-2024(1).png)
+    ![](./media/openai2.png)
 
 1. On the **Basics** tab of **Create Azure OpenAI** resource page, enter the following details and click on **Next (6)** button.
    
@@ -64,31 +64,33 @@ Azure OpenAI offers a web-based portal called **Azure OpenAI Studio** for deploy
 
 1. On the Azure OpenAI resource, select **Keys & Endpoint (1)** under the **Resource Management** section from the left menu, click **Show Keys (2)**, copy **KEY 1 (3)**, and store them in a notepad for later use.
 
-    ![](./media/24-07-2024(36).png)
+    ![](./media/openaikey.png)
 
 ### Deploy Models in Azure OpenAI Studio
 
-1. Go to the Azure OpenAI Overview page, and click **Go to Azure OpenAI Studio** to navigate to Azure AI Studio.
+1. Go to the Azure OpenAI Overview page, and click **Go to Azure AI Foundry portal** to navigate to Azure AI Studio.
 
-    ![](./media/24-07-2024(7).png)
+    ![](./media/aifoundry.png)
 
-1. On the Welcome to Azure OpenAI service page, click on **Create new deployment**.
+1. On the Azure AI Foundry portal, click on **Deployments (1)**,  **Deploy model (2)** and **Deploy base model (3)**.
 
-    ![](./media/24-07-2024(8).png)
+    ![](./media/aifoundry2.png)
 
-1. On the Deployments page, click on **+ Create new deployment**.
+1. On the Select a model page, search and select **gpt-4o (2)** and click on **Confirm (3)**.
 
-    ![](./media/24-07-2024(9).png)    
+    ![](./media/aifoundry3.png)    
 
 1. In the Deploy model pop-up, enter the following details and click on the **Create (4)** button.
     
-    - **Deployment name (1)**: text-davinci-003
+    - **Deployment name**: text-davinci-003 (1)
 
-    - **Select a model (2)**: gpt-35-turbo-instruct
+    - **Deployment type**: Standard (2)
     
-    - **Tokens per Minute Rate Limit (thousands) (3)**: 40K
+    - **Model version**: 2024-11-20 (3)
 
-      ![](./media/24-07-2024(10).png)
+    - **Tokens per Minute Rate Limit (thousands)**: 40K  (4)
+
+      ![](./media/aifoundry4.png)
 
 1. Repeat the process to create another deployment with the following details and click on the **Create (4)** button. 
 
