@@ -26,25 +26,25 @@ Azure OpenAI offers a web-based portal called **Azure OpenAI Studio** for deploy
 
 1. On the Azure portal, type **Azure OpenAI (1)** in the search box and select **Azure OpenAI (2)** from the results.
 
-    ![](./media/24-07-2024(31).png)
+    ![](./media/openai1upd.png)
 
 1. On the **Azure AI services | Azure OpenAI** blade, click on **+ Create**.
 
-    ![](./media/24-07-2024(1).png)
+    ![](./media/openai2upd.png)
 
 1. On the **Basics** tab of **Create Azure OpenAI** resource page, enter the following details and click on **Next (6)** button.
    
-    - **Subscription (1)**: Default - Pre-assigned subscription.
+    - **Subscription**: Default - Pre-assigned subscription  (1)
     
-    - **Resource group (2)**: Select Openai-embedded-<inject key="Deployment ID" enableCopy="false"></inject>
+    - **Resource group**: Select **Openai-embedded-<inject key="Deployment ID" enableCopy="false"></inject>  (2)**
     
-    - **Region (3)**: Select **<inject key="Region" enableCopy="false" />**
+    - **Region**: Select **<inject key="Region" enableCopy="false" />**  **(3)**
     
-    - **Name (4)**: Openai-<inject key="Deployment ID" enableCopy="false"></inject>
+    - **Name**: **Openai-<inject key="Deployment ID" enableCopy="false"></inject>  (4)**
     
-    - **Pricing tier (5)**: Standard S0
+    - **Pricing tier**: **Standard S0 (5)**
 
-      ![](./media/24-07-2024(2).png)
+      ![](./media/openai3.png)
 
 1. On the **Network** tab, leave the value as default and click on **Next** button.
 
@@ -64,41 +64,57 @@ Azure OpenAI offers a web-based portal called **Azure OpenAI Studio** for deploy
 
 1. On the Azure OpenAI resource, select **Keys & Endpoint (1)** under the **Resource Management** section from the left menu, click **Show Keys (2)**, copy **KEY 1 (3)**, and store them in a notepad for later use.
 
-    ![](./media/24-07-2024(36).png)
+    ![](./media/openaikeyupd.png)
 
 ### Deploy Models in Azure OpenAI Studio
 
-1. Go to the Azure OpenAI Overview page, and click **Go to Azure OpenAI Studio** to navigate to Azure AI Studio.
+1. Go to the Azure OpenAI Overview page, and click **Go to Azure AI Foundry portal** to navigate to Azure AI Studio.
 
-    ![](./media/24-07-2024(7).png)
+    ![](./media/aifoundry.png)
 
-1. On the Welcome to Azure OpenAI service page, click on **Create new deployment**.
+1. On the Azure AI Foundry portal, click on **Deployments (1)**,  **Deploy model (2)** and **Deploy base model (3)**.
 
-    ![](./media/24-07-2024(8).png)
+    ![](./media/aifoundry2upd.png)
 
-1. On the Deployments page, click on **+ Create new deployment**.
+1. On the Select a model page, search and select **gpt-35-turbo-instruct (2)** and click on **Confirm (3)**.
 
-    ![](./media/24-07-2024(9).png)    
+    ![](./media/aifoundry3upd.png)    
 
-1. In the Deploy model pop-up, enter the following details and click on the **Create (4)** button.
+1. In the Deploy model pop-up, enter the following details and click on the **Create (5)** button.
     
-    - **Deployment name (1)**: text-davinci-003
+    - Deployment name: **gpt-35-turbo-instruct (1)**
 
-    - **Select a model (2)**: gpt-35-turbo-instruct
+    - Deployment type: **Standard (2)**
     
-    - **Tokens per Minute Rate Limit (thousands) (3)**: 40K
+    - Model version: **0914 (Default) (3)**
 
-      ![](./media/24-07-2024(10).png)
+    - Tokens per Minute Rate Limit (thousands): **40K  (4)**
 
-1. Repeat the process to create another deployment with the following details and click on the **Create (4)** button. 
+      ![](./media/aifoundry4upd.png)
+      > **Note:** Click on **Customize** to expand the menu.
 
-    - **Deployment name (1)**: text-embedding-ada-002
+1. Repeat the process to create another deployment.
 
-    - **Select a model (2)**: text-embedding-ada-002
+1. On the Azure AI Foundry portal, click on **Deployments (1)**,  **Deploy model (2)** and **Deploy base model (3)**.
+
+    ![](./media/aifoundry2upd.png)
+
+1. On the Select a model page, search and select **text-embedding-ada-002 (2)** and click on **Confirm (3)**.
+
+    ![](./media/aifoundry5.png)  
+
+1. 1. In the Deploy model pop-up, enter the following details and click on the **Create (5)** button.
+
+    - Deployment name: **text-embedding-ada-002 (1)**
+
+    - Deployment type: **Standard (2)**
+
+    - Model version: **2 (Default) (3)**
     
-    - **Tokens per Minute Rate Limit (thousands) (3)**: 40K
+    - Tokens per Minute Rate Limit (thousands): **40K (4)**
 
-      ![](./media/24-07-2024(11).png)
+      ![](./media/aifoundry6.png)
+      > **Note:** Click on **Customize** to expand the menu.
 
 ## Task 2: Create Azure AI Search Resources
 
@@ -110,31 +126,27 @@ In this task, you will create the required Azure resources for AI Search, Docume
 
     ![](./media/24-07-2024(12).png)
 
-1. On the **Azure AI services | AI Search** blade, click on **+ Create**.
+1. On the **AI Foundry | AI Search** blade, click on **+ Create**.
 
-    ![](./media/24-07-2024(13).png)
+    ![](./media/aisearch.png)
 
 1. On the **Basics** tab of **Create a search service** resource page, enter the following details:
    
-    - **Subscription (1)**: Default - Pre-assigned subscription
+    - Subscription: Default - **Pre-assigned subscription (1)**
     
-    - **Resource Group (2)**: Select Openai-embedded-<inject key="Deployment ID" enableCopy="false"></inject>
+    - Resource Group: **Select Openai-embedded-<inject key="Deployment ID" enableCopy="false"></inject> (2)**
 
-    - **Service name (4)**: aisearch-<inject key="Deployment ID" enableCopy="false"></inject>
+    - Service name: **aisearch-<inject key="Deployment ID" enableCopy="false"></inject> (4)**
     
-    - **Location (3)**: Select <inject key="Region" enableCopy="false" />
+    - Location: Select **<inject key="Region" enableCopy="false" /> (3)**
     
-    - **Pricing tier (5)**: Standard
+    - Pricing tier: **Standard (5)**
 
-      ![](./media/24-07-2024(14).png)
+      ![](./media/aisearch2.png)
 
-1. Click on **Review + create** button, review the configuration, and click on **Create** button.
+1. Click on **Review + create (6)** button, review the configuration, and click on **Create** button.
 
-     ![](./media/24-07-2024(15).png)
-
-1. Once the deployment is complete, click on the **Go to resource** button.
-
-    ![](./media/24-07-2024(16).png)
+     ![](./media/aisearch3.png)
 
 ### Create Document Intelligence Resource
 
@@ -142,21 +154,21 @@ In this task, you will create the required Azure resources for AI Search, Docume
 
     ![](./media/24-07-2024(19).png)
 
-1. On the **Azure AI services | Document intelligence** blade, click on **+ Create**.
+1. On the **AI Foundry | Document intelligence** blade, click on **+ Create**.
 
-    ![](./media/24-07-2024(20).png)
+    ![](./media/documentint.png)
 
 1. On the **Basics** tab of **Create Document Intelligence** resource page, enter the following details:
    
-    - **Subscription (1)**: Default - Pre-assigned subscription.
+    - Subscription: Default - **Pre-assigned subscription (1)**
     
-    - **Resource group (2)**: Select Openai-embedded-<inject key="Deployment ID" enableCopy="false"></inject>
+    - Resource group: Select **Openai-embedded-<inject key="Deployment ID" enableCopy="false"></inject> (2)**
     
-    - **Region (3)**: Select <inject key="Region" enableCopy="false" />
+    - Region: Select **<inject key="Region" enableCopy="false" /> (3)**
     
-    - **Name (4)**: Document-intelligence-<inject key="Deployment ID" enableCopy="false"></inject>
+    - Name: **Document-intelligence-<inject key="Deployment ID" enableCopy="false"></inject> (4)**
     
-    - **Pricing tier (5)**: Standard S0 (1 Call per minute for training API)
+    - Pricing tier: **Standard S0 (1 Call per minute for training API) (5)**
 
       ![](./media/24-07-2024(21).png)
         
@@ -170,25 +182,25 @@ In this task, you will create the required Azure resources for AI Search, Docume
 
     ![](./media/24-07-2024(25).png)
 
-1. On the **Azure AI services | Translator** blade, click on **+ Create**.
+1. On the **AI Foundry | Translator** blade, click on **+ Create**.
 
-    ![](./media/24-07-2024(26).png)
+    ![](./media/translator.png)
 
 1. On the **Basics** tab of **Create Translator** resource page, enter the following details:
    
-    - **Subscription (1)**: Default - Pre-assigned subscription.
+    - Subscription: **Default - Pre-assigned subscription (1)**
     
-    - **Resource group (2)**: Openai-embedded-<inject key="Deployment ID" enableCopy="false"></inject>
+    - Resource group: **Openai-embedded-<inject key="Deployment ID" enableCopy="false"></inject> (2)**
     
-    - **Region (3)**: Select <inject key="Region" enableCopy="false" />
+    - Region: Select **<inject key="Region" enableCopy="false" /> (3)**
     
-    - **Name (4)**: Translator-<inject key="Deployment ID" enableCopy="false"></inject>
+    - Name: **Translator-<inject key="Deployment ID" enableCopy="false"></inject> (4)**
     
-    - **Pricing tier (5)**: Standard S1 (Pay as you go)
+    - Pricing tier: **Standard S1 (Pay as you go) (5)**
 
-      ![](./media/24-07-2024(27).png)
+      ![](./media/translator2.png)
     
-1. Click on **Review + create** button, review the configuration, and click on **Create** button.
+1. Click on **Review + create (6)** button, review the configuration, and click on **Create** button.
 
     ![](./media/24-07-2024(28).png)
 
@@ -204,7 +216,7 @@ In this task, you will deploy Azure Functions that automate the document process
 
     ![](./media/13.png)
 
-1. Navigate back to the Azure Portal, type **Deploy from a custom template (1)** in the search box and select **Deploy from a custom template (2)** from the results.
+1. Navigate back to the Azure Portal, type **Deploy a custom template (1)** in the search box and select **Deploy a custom template (2)** from the results.
 
     ![](./media/24-07-2024(32).png)
 
@@ -235,7 +247,7 @@ In this task, you will deploy Azure Functions that automate the document process
     |Open AI Name | Openai-<inject key="Deployment ID" enableCopy="false"></inject> |
     |Open AI Key | Paste the OpenAI key that you copied in task 1 |
 
-      ![](./media/14.png)
+      ![](./media/14upd.png)
 
 1. Leave the other value as default and click on **Review + create** button, review the configuration, and click on **Create** button.
 
@@ -247,7 +259,7 @@ In this task, you will deploy Azure Functions that automate the document process
 
 1. On the **Overview** page of **Openai-embedded-<inject key="Deployment ID" enableCopy="false"></inject>** resource group, click on **Functionapp-<inject key="Deployment ID" enableCopy="false"></inject>** function app resource.
 
-    ![](./media/24-07-2024(40).png)
+    ![](./media/rgfunction.png)
 
 1. On the Overview page of **Functionapp-<inject key="Deployment ID" enableCopy="false"></inject>** page, review the three functions that are present under the **Functions** tab.
 

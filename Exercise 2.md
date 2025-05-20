@@ -24,35 +24,37 @@ In this task, you will create a new Azure Web App resource. The web app will be 
 
     ![](./media/24-07-2024(42).png)
 
-1. On the **Basics** tab of **Create Web App** resource page, enter the following details and click on **Next : Container > (7)** button.
+1. On the **Basics** tab of **Create Web App** resource page, enter the following details and click on **Next : Database > (9)** button.
    
-    - **Subscription (1)**: Default - Pre-assigned subscription.
+    - Subscription: **Default - Pre-assigned subscription (1)**
     
-    - **Resource group (2)**: Select Openai-embedded-<inject key="Deployment ID" enableCopy="false"></inject>
+    - Resource group: Select **Openai-embedded-<inject key="Deployment ID" enableCopy="false"></inject> (2)**
     
-    - **Name (3)**: Webapp-<inject key="Deployment ID" enableCopy="false"></inject>
+    - Name: **Webapp-<inject key="Deployment ID" enableCopy="false"></inject> (3)**
+
+    - Secure a unique default hostname: **Turn off (4)**
     
-    - **Publish (4)**: Choose **Container**
+    - Publish: Choose **Container (5)**
    
-    - **Operating System (5)**: Choose **Linux**
+    - Operating System: Choose **Linux (6)**
    
-    - **Region (6)**: Select **<inject key="Region" enableCopy="false" />**
+    - Region: Select **<inject key="Region" enableCopy="false" /> (7)**
 
-      ![](./media/24-07-2024(43).png)
+    - Linux Plan: Select an existing plan i.e. **hostingplan-<inject key="Deployment ID" enableCopy="false"></inject> (B3)**  **(8)**
 
-    - **Linux Plan (6)**: Select an existing plan i.e. **hostingplan-<inject key="Deployment ID" enableCopy="false"></inject> (B3)**
+      ![](./media/webapp1.png)
 
-      ![](./media/16.png)
+1. On the **Database** tab click on **Next : Container >**
 
 1. On the **Container** tab, enter the following details and click on **Next : Review + create > (4)** button.
 
-   - **Image Source (1)**: Select Docker Hub or other registries
+   - Image Source: Select **Other container registries (1)**
 
-   - **Access Type (2)**: Select Public
+   - Access Type: Select **Public (2)**
 
-   - **Image and tag (3)**: Enter fruocco/oai-embeddings:latest
+   - Image and tag: Enter **fruocco/oai-embeddings:latest (3)**
 
-     ![](./media/17.png)
+     ![](./media/webapp2.png)
 
 1. On the **Review + create** tab, review the configuration, and click on **Create** button.
 
