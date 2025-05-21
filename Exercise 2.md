@@ -46,7 +46,7 @@ In this task, you will create a new Azure Web App resource. The web app will be 
 
 1. On the **Database** tab click on **Next : Container >**
 
-1. On the **Container** tab, enter the following details and click on **Next : Review + create > (4)** button.
+1. On the **Container** tab, enter the following details and click on **Review + create (4)** button.
 
    - Image Source: Select **Other container registries (1)**
 
@@ -70,7 +70,7 @@ In this task, you will configure the necessary environment variables. This invol
 
 1. In the left-hand menu, select **Environment variables (1)** under **Settings** and Click on **Advanced edit (2)** at the top of the page to view or modify the environment variables.
 
-    ![](./media/24-07-2024(49).png)
+    ![](./media/lab-04.png)
 
 1. In the advanced editor, delete the current values and paste the new values you copied from the Function App in the previous exercise. Then, click **OK**.
 
