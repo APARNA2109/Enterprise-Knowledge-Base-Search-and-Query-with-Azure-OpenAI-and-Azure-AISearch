@@ -28,7 +28,7 @@ Azure OpenAI offers a web-based portal called **Azure OpenAI Studio** for deploy
 
     ![](./media/openai1upd.png)
 
-1. On the **Azure AI services | Azure OpenAI** blade, click on **+ Create**.
+1. On the **AI Foundry | Azure OpenAI** blade, click on **+ Create**.
 
     ![](./media/openai2upd.png)
 
@@ -70,51 +70,53 @@ Azure OpenAI offers a web-based portal called **Azure OpenAI Studio** for deploy
 
 1. Go to the Azure OpenAI Overview page, and click **Go to Azure AI Foundry portal** to navigate to Azure AI Studio.
 
-    ![](./media/aifoundry.png)
+    ![](./media/lab-03.png)
 
-1. On the Azure AI Foundry portal, click on **Deployments (1)**,  **Deploy model (2)** and **Deploy base model (3)**.
+1. On the Azure AI Foundry portal, click on **Deployments (1)**,  **+ Deploy model (2)** and **Deploy base model (3)**.
 
     ![](./media/aifoundry2upd.png)
 
-1. On the Select a model page, search and select **gpt-35-turbo-instruct (2)** and click on **Confirm (3)**.
+1. On the Select a model page, search for **gpt-35-turbo-instruct (1)**, select **gpt-35-turbo-instruct (2)**, and click **Confirm (3)**.
 
     ![](./media/aifoundry3upd.png)    
 
-1. In the Deploy model pop-up, enter the following details and click on the **Create (5)** button.
+1. In the Deploy model pop-up, enter the following details and click on the **Deploy (5)** button.
     
     - Deployment name: **gpt-35-turbo-instruct (1)**
 
     - Deployment type: **Standard (2)**
+
+    - Click on **Customize** to expand the menu.
     
     - Model version: **0914 (Default) (3)**
 
     - Tokens per Minute Rate Limit (thousands): **40K  (4)**
 
       ![](./media/aifoundry4upd.png)
-      > **Note:** Click on **Customize** to expand the menu.
 
 1. Repeat the process to create another deployment.
 
-1. On the Azure AI Foundry portal, click on **Deployments (1)**,  **Deploy model (2)** and **Deploy base model (3)**.
+1. On the Azure AI Foundry portal, click on **Deployments (1)**,  **+ Deploy model (2)** and **Deploy base model (3)**.
 
     ![](./media/aifoundry2upd.png)
 
-1. On the Select a model page, search and select **text-embedding-ada-002 (2)** and click on **Confirm (3)**.
+1. On the **Select a model** page, search for **text-embedding-ada-002 (1)**, select **text-embedding-ada-002 (2)**, and click **Confirm (3)**.
 
     ![](./media/aifoundry5.png)  
 
-1. 1. In the Deploy model pop-up, enter the following details and click on the **Create (5)** button.
+1. In the Deploy model pop-up, enter the following details and click on the **Deploy (5)** button.
 
     - Deployment name: **text-embedding-ada-002 (1)**
 
     - Deployment type: **Standard (2)**
+
+    - Click on **Customize** to expand the menu.
 
     - Model version: **2 (Default) (3)**
     
     - Tokens per Minute Rate Limit (thousands): **40K (4)**
 
       ![](./media/aifoundry6.png)
-      > **Note:** Click on **Customize** to expand the menu.
 
 ## Task 2: Create Azure AI Search Resources
 
@@ -142,9 +144,11 @@ In this task, you will create the required Azure resources for AI Search, Docume
     
     - Pricing tier: **Standard (5)**
 
+    - Click on **Review + create (6)** button
+
       ![](./media/aisearch2.png)
 
-1. Click on **Review + create (6)** button, review the configuration, and click on **Create** button.
+1. Review the configuration, and click on **Create** button.
 
      ![](./media/aisearch3.png)
 
@@ -198,9 +202,11 @@ In this task, you will create the required Azure resources for AI Search, Docume
     
     - Pricing tier: **Standard S1 (Pay as you go) (5)**
 
+    - Click on **Review + create (6)** button
+
       ![](./media/translator2.png)
     
-1. Click on **Review + create (6)** button, review the configuration, and click on **Create** button.
+1. Review the configuration, and click on **Create** button.
 
     ![](./media/24-07-2024(28).png)
 
@@ -232,20 +238,20 @@ In this task, you will deploy Azure Functions that automate the document process
 
     |Variables	|Values|
     |---|---|
-    |Subscription | Default - Pre-assigned subscription |
-    |Resource group | Openai-embedded-<inject key="Deployment ID" enableCopy="false"></inject> |
-    |Region | <inject key="Region" enableCopy="false" /> |
-    |Azure Cognitive Search | aisearch-<inject key="Deployment ID" enableCopy="false"></inject> |
-    |Azure Cognitive Search Sku | standard |
-    |Hosting Plan Name | hostingplan-<inject key="Deployment ID" enableCopy="false"></inject> |
-    |Hosting Plan Sku | B3 |
-    |Storage Account Name | storage<inject key="Deployment ID" enableCopy="false"></inject> |
-    |Function Name | Functionapp-<inject key="Deployment ID" enableCopy="false"></inject> |
-    |Application Insights Name | Application-insights-<inject key="Deployment ID" enableCopy="false"></inject> |
-    |Form Recognizer Name |Document-intelligence-<inject key="Deployment ID" enableCopy="false"></inject> |
-    |Translator Name | Translator-<inject key="Deployment ID" enableCopy="false"></inject> |
-    |Open AI Name | Openai-<inject key="Deployment ID" enableCopy="false"></inject> |
-    |Open AI Key | Paste the OpenAI key that you copied in task 1 |
+    |**Subscription** | Default - Pre-assigned subscription |
+    |**Resource group** | Openai-embedded-<inject key="Deployment ID" enableCopy="false"></inject> |
+    |**Region** | <inject key="Region" enableCopy="false" /> |
+    |**Azure Cognitive Search** | aisearch-<inject key="Deployment ID" enableCopy="false"></inject> |
+    |**Azure Cognitive Search Sku**| standard |
+    |**Hosting Plan Name** | hostingplan-<inject key="Deployment ID" enableCopy="false"></inject> |
+    |**Hosting Plan Sku** | B3 |
+    |**Storage Account Name** | storage<inject key="Deployment ID" enableCopy="false"></inject> |
+    |**Function Name** | Functionapp-<inject key="Deployment ID" enableCopy="false"></inject> |
+    |**Application Insights Name** | Application-insights-<inject key="Deployment ID" enableCopy="false"></inject> |
+    |**Form Recognizer Name** |Document-intelligence-<inject key="Deployment ID" enableCopy="false"></inject> |
+    |**Translator Name** | Translator-<inject key="Deployment ID" enableCopy="false"></inject> |
+    |**Open AI Name** | Openai-<inject key="Deployment ID" enableCopy="false"></inject> |
+    |**Open AI Key** | Paste the OpenAI key that you copied in task 1 |
 
       ![](./media/14upd.png)
 
@@ -286,7 +292,7 @@ In this task, you will deploy Azure Functions that automate the document process
         - It then uses Azure OpenAI to generate a comprehensive answer based on the search results.
         - Finally, it returns this answer to the user.
 
-1. In the left-hand menu, select **Environment variables (1)** under **Settings** section and Click on **Advanced edit (2)** at the top of the page to view or modify the environment variables.
+1. In the left-hand menu, select **Environment variables (1)** under **Settings** section and click on **Advanced edit (2)** at the top of the page to view or modify the environment variables.
 
     ![](./media/24-07-2024(48).png)
 
@@ -300,4 +306,4 @@ In this exercise, you have accomplished the following:
 - Deployed an OpenAI model within the Azure OpenAI studio
 - Integrated Azure OpenAI models into your applications
 
-### You have successfully completed the lab
+### You have successfully completed the lab. Click on **Next >>** to proceed to the next exercise.

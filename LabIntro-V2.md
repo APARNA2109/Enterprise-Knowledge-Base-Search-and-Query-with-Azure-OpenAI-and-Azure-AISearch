@@ -81,21 +81,7 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
 
 To adjust the zoom level for the environment page, click the **A↕ : 100%** icon located next to the timer in the lab environment.
 
-   ![](media/labzoom-1.png)
-
-## Lab Duration Extension
-
-1. To extend the duration of the lab, kindly click the **Hourglass** icon in the top right corner of the lab environment. 
-
-    ![](./media/5.png)
-
-    >**Note:** You will get the **Hourglass** icon when 15 minutes are remaining in the lab.
-
-2. Click **OK** to extend your lab duration.
- 
-   ![](./media/6.png)
-
-3. If you have not extended the duration prior to when the lab is about to end, a pop-up will appear, giving you the option to extend. Click **OK** to proceed.
+   ![](media/lab-01.png)
 
 ## Let's Get Started with Azure Portal
  
@@ -139,6 +125,6 @@ Learner Support Contacts:
 
 Now, click on **Next** from the lower right corner to move on to the next page.
  
-   ![](./media/10.png)
+   ![](./media/lab-02.png)
 
 ### Happy Learning!!
