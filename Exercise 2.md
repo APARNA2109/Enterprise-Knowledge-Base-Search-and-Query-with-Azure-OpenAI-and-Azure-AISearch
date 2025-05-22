@@ -9,14 +9,14 @@ In this exercise, you will create and deploy a web application from a Docker ima
 In this exercise, you will complete the following tasks:
 
 - Task 1: Create and deploy a web app from a Docker image
-- Task 2: Add environment Variables and check the docker deployment
+- Task 2: Add environment Variables and check the Docker deployment
 - Task 3: Test the web app
 
 ## Task 1: Create and deploy a web app from a Docker image
 
 In this task, you will create a new Azure Web App resource. The web app will be set up to use a Docker container from a specified image. You will configure the app with settings for subscription, resource group, and Linux plan, and then deploy the Docker image **fruocco/oai-embeddings:latest** to the web app.
 
-1. Click on the **+ Create a resource** button on the top left corner of the Azure Portal.
+1. Click on the **+ Create a resource** button in the top left corner of the Azure Portal.
 
     ![](./media/24-07-2024(41).png)
 
@@ -64,11 +64,11 @@ In this task, you will create a new Azure Web App resource. The web app will be 
    
     ![](./media/24-07-2024(47).png)
 
-## Task 2: Add environment Variables and check the docker deployment
+## Task 2: Add environment Variables and check the Docker deployment
 
 In this task, you will configure the necessary environment variables. This involves accessing the environment variables section in the web app settings, editing the values to match those provided in the previous exercise, and saving the changes.
 
-1. In the left-hand menu, select **Environment variables (1)** under **Settings** and Click on **Advanced edit (2)** at the top of the page to view or modify the environment variables.
+1. In the left-hand menu, select **Environment variables (1)** under **Settings section** and click on **Advanced edit (2)** at the top of the page to view or modify the environment variables.
 
     ![](./media/lab-04.png)
 
@@ -148,7 +148,7 @@ In this task, you will test the functionality of the deployed web app by browsin
 
     ![](./media/28.png)
 
-1. Once the file is opened, verify that it is in **German language**. We will then use the web app to translate the file into English and obtain the results using OpenAI Chat.
+1. Once the file is opened, verify that it is in the **German language**. We will then use the web app to translate the file into English and obtain the results using OpenAI Chat.
 
 1. Return to the web app page, in the left-hand menu, select **Add Document (1)**, check the box for **Translate document to English (2)** and then click on **Browse files (3)**.
 
