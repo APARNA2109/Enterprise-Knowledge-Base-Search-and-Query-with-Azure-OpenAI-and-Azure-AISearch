@@ -10,10 +10,9 @@ The purpose of this lab is to explore the capabilities of various Azure services
 
 By the end of this lab, you will have:
 
-- **Embedding Creation**: Develop high-quality embeddings for documents and queries within the enterprise knowledge base to enhance semantic understanding and improve search relevance. This involves leveraging Azure OpenAI to generate contextually rich embeddings that capture the nuances of the information, allowing for more accurate comparisons between user queries and stored knowledge.
+- **Embedding Creation:** Develop high-quality embeddings for documents and queries within the enterprise knowledge base to enhance semantic understanding and improve search relevance. This involves leveraging Azure OpenAI to generate contextually rich embeddings that capture the nuances of the information, allowing for more accurate comparisons between user queries and stored knowledge.
 
-- **Query and Retrieval**: Implement an efficient query and retrieval system using Azure AI Search that utilizes the embeddings created to facilitate rapid, accurate responses to user inquiries. The goal is to optimize the search process by enabling semantic search capabilities, ensuring that users can easily find relevant information within the knowledge base, thus improving overall productivity and decision-making.
-
+- **Query and Retrieval:** Implement an efficient query and retrieval system using Azure AI Search that utilizes the embeddings created to facilitate rapid, accurate responses to user inquiries. The goal is to optimize the search process by enabling semantic search capabilities, ensuring that users can easily find relevant information within the knowledge base, thus improving overall productivity and decision-making.
 
 ## Prerequisites
 
@@ -27,7 +26,7 @@ Participants should have:
 
 ## Architecture
 
-The process involves storing documents in Azure storage accounts, with optional translation and text extraction using a function app. Texts are then converted into embeddings by an Azure OpenAI embedding model and stored in Azure AI Search for efficient retrieval. When a query is submitted, it is vectorized and used to search for relevant content in Azure AI Search. The search results are processed by an Azure OpenAI language model to generate a response. This workflow uses Azure services including storage accounts, function apps, Document Intelligence, embedding models, AI Search, and language models.
+The process involves storing documents in Azure storage accounts, with optional translation and text extraction using a function app. Texts are then converted into embeddings by an Azure OpenAI embedding model and stored in Azure AI Search for efficient retrieval. When a query is submitted, it is vectorized and used to search for relevant content in Azure AI Search. The search results are processed by an Azure OpenAI language model to generate a response. This workflow uses Azure services, including storage accounts, function apps, Document Intelligence, embedding models, AI Search, and language models.
 
 ## Architecture Diagram
 
@@ -37,13 +36,13 @@ The process involves storing documents in Azure storage accounts, with optional 
 
 The architecture for this lab involves the following key components:
 
-- **Storage Accounts**: These are used to store your documents in Azure. They act as the initial repository where documents are kept before any processing begins.
-- **Function App**: A serverless compute service in Azure that automates tasks such as translating documents (if needed) and extracting text from them. It processes the documents and prepares the text for further steps.
-- **Azure OpenAI Embedding Model**: Converts the extracted text into embeddings, which are vector representations capturing the semantic meaning of the text. These embeddings are used for efficient content retrieval.
-- **Azure AI Search (Cognitive Search)**: Stores the embeddings and enables powerful search capabilities. It allows for fast and accurate retrieval of relevant content based on similarity to a user’s query.
-- **Azure OpenAI Language Model**: Utilises the search results from Azure AI Search to generate a response. It applies advanced language processing to create coherent and contextually appropriate answers.
-- **Document Intelligence (Form Recognizer)**: Provides capabilities to extract structured information from various types of documents, such as invoices and receipts, which can be used to enrich the data before embedding.
-- **Translator**: An optional service that translates text into different languages, making the content accessible to users who speak different languages.
+- **Storage Accounts:** These are used to store your documents in Azure. They act as the initial repository where documents are kept before any processing begins.
+- **Function App:** A serverless compute service in Azure that automates tasks such as translating documents (if needed) and extracting text from them. It processes the documents and prepares the text for further steps.
+- **Azure OpenAI Embedding Model:** Converts the extracted text into embeddings, which are vector representations capturing the semantic meaning of the text. These embeddings are used for efficient content retrieval.
+- **Azure AI Search (Cognitive Search):** Stores the embeddings and enables powerful search capabilities. It allows for fast and accurate retrieval of relevant content based on similarity to a user’s query.
+- **Azure OpenAI Language Model:** Utilises the search results from Azure AI Search to generate a response. It applies advanced language processing to create coherent and contextually appropriate answers.
+- **Document Intelligence (Form Recognizer):** Provides capabilities to extract structured information from various types of documents, such as invoices and receipts, which can be used to enrich the data before embedding.
+- **Translator:** An optional service that translates text into different languages, making the content accessible to users who speak different languages.
 
 ## Getting Started with the Lab
  
@@ -89,7 +88,7 @@ To adjust the zoom level for the environment page, click the **A↕ : 100%** ico
  
    ![](./media/7.png)
 
-2. On the **Sign in to Microsoft Azure** tab you will see the login screen, in that enter the following email/username, and click on **Next**.
+2. On the **Sign in to Microsoft Azure** tab, you will see the login screen. Enter the following email/username, and click on **Next**.
  
    - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
  
