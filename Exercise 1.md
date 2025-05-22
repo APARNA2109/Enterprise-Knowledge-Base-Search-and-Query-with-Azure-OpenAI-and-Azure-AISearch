@@ -18,7 +18,7 @@ In this exercise, you will complete the following tasks:
 
 ## Task 1: Deploy Azure OpenAI and Models
 
-In this task, You will begin by deploying an Azure OpenAI resource through the Azure portal. This involves creating an OpenAI resource, configuring it with the appropriate settings, and deploying models such as **text-davinci-003** and **text-embedding-ada-002** using Azure OpenAI Studio.
+In this task, you will begin by deploying an Azure OpenAI resource through the Azure portal. This involves creating an OpenAI resource, configuring it with the appropriate settings, and deploying models such as **text-davinci-003** and **text-embedding-ada-002** using Azure OpenAI Studio.
 
 Azure OpenAI offers a web-based portal called **Azure OpenAI Studio** for deploying, managing, and exploring models. Follow these steps to deploy a model using Azure OpenAI Studio:
 
@@ -154,7 +154,7 @@ In this task, you will create the required Azure resources for AI Search, Docume
 
 ### Create Document Intelligence Resource
 
-1. On the Azure portal, type **Document intelligence (1)** in the search box and select **Document intelligences (2)** from the results.
+1. On the Azure portal, type **Document intelligence (1)** in the search box and select **Document intelligence (2)** from the results.
 
     ![](./media/24-07-2024(19).png)
 
@@ -230,7 +230,7 @@ In this task, you will deploy Azure Functions that automate the document process
 
     ![](./media/42.png)
 
-1. Paste the template you copied in step number 2 and click on the **Save** button.
+1. Paste the template you copied in step 2 and click on the **Save** button.
 
     ![](./media/24-07-2024(33).png)
 
@@ -271,7 +271,7 @@ In this task, you will deploy Azure Functions that automate the document process
 
     ![](./media/24-07-2024(39).png)
 
-1. The Azure Functions are triggered at different stages. please find it in detail:
+1. The Azure Functions are triggered at different stages. Please find it in detail:
 
     - **BatchStartProcessing**: When a document is uploaded to Azure Storage, it automatically triggers this Azure Function. This function acts as the initial step in the document processing pipeline. Here's how it works:
 
@@ -282,7 +282,7 @@ In this task, you will deploy Azure Functions that automate the document process
     - **BatchPushResults**: Once the paragraphs are extracted from the document, this Azure Function is triggered. This function handles two tasks:
 
         - If required, it translates the extracted text using Azure Translator.
-        - It then converts the processed text into embeddings using Azure OpenAI Service.
+        - It then converts the processed text into embeddings using the Azure OpenAI Service.
         - This function could be triggered by a queue message or by the completion of the first function.
 
     - **ApiQnA**: When a user submits a search query, this Azure Function is triggered. This function performs several crucial steps:
@@ -296,14 +296,14 @@ In this task, you will deploy Azure Functions that automate the document process
 
     ![](./media/24-07-2024(48).png)
 
-1. Copy all the values displayed in the environment variables section and paste them into a Notepad for the next exercise.
+1. Copy all the values displayed in the environment variables section and paste them into Notepad for the next exercise.
 
 ## Summary
 
 In this exercise, you have accomplished the following:
 
 - Provisioned an Azure OpenAI resource
-- Deployed an OpenAI model within the Azure OpenAI studio
+- Deployed an OpenAI model within the Azure OpenAI Studio
 - Integrated Azure OpenAI models into your applications
 
-### You have successfully completed the lab. Click on **Next >>** to proceed to the next exercise.
+### Click on **Next >>** to proceed to the next exercise.
