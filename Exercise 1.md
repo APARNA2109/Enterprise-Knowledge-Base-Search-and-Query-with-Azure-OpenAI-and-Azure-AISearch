@@ -265,23 +265,23 @@ In this task, you will deploy Azure Functions that automate the document process
     |**Subscription** | Default - Pre-assigned subscription |
     |**Resource group** | Openai-embedded-<inject key="Deployment ID" enableCopy="false"></inject> |
     |**Region** | <inject key="Region" enableCopy="false" /> |
-    |**Azure Cognitive Search** | aisearch-<inject key="Deployment ID" enableCopy="false"></inject> |
-    |**Azure Cognitive Search Sku**| standard |
+    |**Azure AI Search** | aisearch-<inject key="Deployment ID" enableCopy="false"></inject> |
+    |**Azure AI Search Sku**| standard |
     |**Hosting Plan Name** | hostingplan-<inject key="Deployment ID" enableCopy="false"></inject> |
     |**Hosting Plan Sku** | B3 |
     |**Storage Account Name** | storage<inject key="Deployment ID" enableCopy="false"></inject> |
     |**Function Name** | Functionapp-<inject key="Deployment ID" enableCopy="false"></inject> |
     |**Application Insights Name** | Application-insights-<inject key="Deployment ID" enableCopy="false"></inject> |
-    |**Form Recognizer Name** |Document-intelligence-<inject key="Deployment ID" enableCopy="false"></inject> |
+    |**Document Intelligence** |Document-intelligence-<inject key="Deployment ID" enableCopy="false"></inject> |
     |**Translator Name** | Translator-<inject key="Deployment ID" enableCopy="false"></inject> |
     |**Open AI Name** | Openai-<inject key="Deployment ID" enableCopy="false"></inject> |
     |**Open AI Key** | Paste the OpenAI key that you copied in task 1 |
 
-      ![](./media/14upd.png)
+      ![](./media/23052025(2).png)
 
 1. Leave the other value as default and click on **Review + create** button, review the configuration, and click on **Create** button.
 
-    ![](./media/15.png)
+    ![](./media/23052025(3).png)
 
 1. Once the deployment is complete, click on the **Go to resource group** button.
 
