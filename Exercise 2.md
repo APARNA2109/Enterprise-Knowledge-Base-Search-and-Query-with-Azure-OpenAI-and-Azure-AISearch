@@ -134,6 +134,8 @@ In this task, you will test the functionality of the deployed web app by browsin
 
     ![](./media/37.png)
 
+    >**Note:** The provided screenshot is for your reference; the output you receive may vary.
+
 1. You can click on **Sources** to obtain the converted file in text format.
 
     ![](./media/38.png)
@@ -182,6 +184,8 @@ In this task, you will test the functionality of the deployed web app by browsin
 
     ![](./media/35.png)
 
+    >**Note:** The provided screenshot is for your reference; the output you receive may vary.
+
     ### How the File Translation is Managed?
 
     - The end-to-end process of managing and querying a knowledge base using Azure services. The workflow includes the following key steps:
@@ -211,6 +215,12 @@ In this task, you will test the functionality of the deployed web app by browsin
     ![](./media/40.png)
 
     ![](./media/41.png)
+
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> - If you receive a success message, you can proceed to the next task.
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
+> - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
+<validation step="0235891a-6654-4d5d-82b8-af3b6a5346e0" />
 
 ## Summary
 

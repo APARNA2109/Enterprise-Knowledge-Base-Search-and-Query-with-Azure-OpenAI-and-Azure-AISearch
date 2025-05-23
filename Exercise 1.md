@@ -18,9 +18,9 @@ In this exercise, you will complete the following tasks:
 
 ## Task 1: Deploy Azure OpenAI and Models
 
-In this task, you will begin by deploying an Azure OpenAI resource through the Azure portal. This involves creating an OpenAI resource, configuring it with the appropriate settings, and deploying models such as **text-davinci-003** and **text-embedding-ada-002** using Azure OpenAI Studio.
+In this task, you will begin by deploying an Azure OpenAI resource through the Azure portal. This involves creating an OpenAI resource, configuring it with the appropriate settings, and deploying models such as **gpt-35-turbo-instruct** and **text-embedding-ada-002** using Azure AI Foundry portal.
 
-Azure OpenAI offers a web-based portal called **Azure OpenAI Studio** for deploying, managing, and exploring models. Follow these steps to deploy a model using Azure OpenAI Studio:
+Azure OpenAI offers a web-based portal called **Azure AI Foundry portal** for deploying, managing, and exploring models. Follow these steps to deploy a model using Azure AI Foundry portal:
 
 ### Deploy Azure OpenAI Resource
 
@@ -66,13 +66,20 @@ Azure OpenAI offers a web-based portal called **Azure OpenAI Studio** for deploy
 
     ![](./media/openaikeyupd.png)
 
-### Deploy Models in Azure OpenAI Studio
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> - If you receive a success message, you can proceed to the next task.
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
+> - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
+<validation step="76158c08-a6fe-4e2f-ba59-d6556a5a88e4" />
 
-1. Go to the Azure OpenAI Overview page, and click **Go to Azure AI Foundry portal** to navigate to Azure AI Studio.
+### Deploy Models in Azure AI Foundry portal
+
+1. Go to the Azure OpenAI Overview page, and click **Go to Azure AI Foundry portal** to navigate to Azure AI Foundry portal.
 
     ![](./media/lab-03.png)
 
-1. On the Azure AI Foundry portal, click on **Deployments (1)**,  **+ Deploy model (2)** and **Deploy base model (3)**.
+1. In the Azure AI Foundry portal, navigate to **Deployments (1)**, select **+ Deploy model (2)**, and then choose **Deploy base model (3)**.
+
 
     ![](./media/aifoundry2upd.png)
 
@@ -96,7 +103,8 @@ Azure OpenAI offers a web-based portal called **Azure OpenAI Studio** for deploy
 
 1. Repeat the process to create another deployment.
 
-1. On the Azure AI Foundry portal, click on **Deployments (1)**,  **+ Deploy model (2)** and **Deploy base model (3)**.
+1. In the Azure AI Foundry portal, navigate to **Deployments (1)**, select **+ Deploy model (2)**, and then choose **Deploy base model (3)**.
+
 
     ![](./media/aifoundry2upd.png)
 
@@ -152,9 +160,15 @@ In this task, you will create the required Azure resources for AI Search, Docume
 
      ![](./media/aisearch3.png)
 
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> - If you receive a success message, you can proceed to the next task.
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
+> - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
+<validation step="c27751de-8370-4a29-92b9-c79ee1e1e436" />
+
 ### Create Document Intelligence Resource
 
-1. On the Azure portal, type **Document intelligence (1)** in the search box and select **Document intelligence (2)** from the results.
+1. On the Azure portal, type **Document intelligence (1)** in the search box and select **Document intelligences (2)** from the results.
 
     ![](./media/24-07-2024(19).png)
 
@@ -179,6 +193,12 @@ In this task, you will create the required Azure resources for AI Search, Docume
 1. Click on **Review + create** button, review the configuration, and click on **Create** button.
 
     ![](./media/24-07-2024(22).png)
+
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> - If you receive a success message, you can proceed to the next task.
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
+> - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
+<validation step="a4912828-00ad-4dde-83a3-75feb53266d3" />
 
 ### Create Translator Resource
 
@@ -209,6 +229,12 @@ In this task, you will create the required Azure resources for AI Search, Docume
 1. Review the configuration, and click on **Create** button.
 
     ![](./media/24-07-2024(28).png)
+
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> - If you receive a success message, you can proceed to the next task.
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
+> - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
+<validation step="f7eb2333-4b72-4cdb-809d-fd4c522ff2aa" />
 
 ## Task 3: Deploy Azure Function with Embeddings
 
@@ -298,12 +324,18 @@ In this task, you will deploy Azure Functions that automate the document process
 
 1. Copy all the values displayed in the environment variables section and paste them into Notepad for the next exercise.
 
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> - If you receive a success message, you can proceed to the next task.
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
+> - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
+<validation step="da23d4f2-068b-4149-8071-9870b25d261d" />
+
 ## Summary
 
 In this exercise, you have accomplished the following:
 
 - Provisioned an Azure OpenAI resource
-- Deployed an OpenAI model within the Azure OpenAI Studio
+- Deployed an OpenAI model within the Azure AI Foundry portal
 - Integrated Azure OpenAI models into your applications
 
 ### Click on **Next >>** to proceed to the next exercise.
