@@ -80,7 +80,6 @@ Azure OpenAI offers a web-based portal called **Azure AI Foundry portal** for de
 
 1. In the Azure AI Foundry portal, navigate to **Deployments (1)**, select **+ Deploy model (2)**, and then choose **Deploy base model (3)**.
 
-
     ![](./media/aifoundry2upd.png)
 
 1. On the Select a model page, search for **gpt-35-turbo-instruct (1)**, select **gpt-35-turbo-instruct (2)**, and click **Confirm (3)**.
@@ -104,7 +103,6 @@ Azure OpenAI offers a web-based portal called **Azure AI Foundry portal** for de
 1. Repeat the process to create another deployment.
 
 1. In the Azure AI Foundry portal, navigate to **Deployments (1)**, select **+ Deploy model (2)**, and then choose **Deploy base model (3)**.
-
 
     ![](./media/aifoundry2upd.png)
 
