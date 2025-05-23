@@ -64,7 +64,7 @@ Azure OpenAI offers a web-based portal called **Azure AI Foundry portal** for de
 
 1. On the Azure OpenAI resource, select **Keys & Endpoint (1)** under the **Resource Management** section from the left menu, click **Show Keys (2)**, copy **KEY 1 (3)**, and store them in a notepad for later use.
 
-    ![](./media/openaikeyupd.png)
+    ![](./media/lop-01.png)
 
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 > - If you receive a success message, you can proceed to the next task.
