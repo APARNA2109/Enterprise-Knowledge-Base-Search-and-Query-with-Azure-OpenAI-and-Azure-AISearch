@@ -20,9 +20,9 @@ In this task, you will create a new Azure Web App resource. The web app will be 
 
     ![](./media/24-07-2024(41).png)
 
-1. In the search box, type **Web app (1)**, select **Web App (2)** from the list of results and click on **Create (3)**.
+1. In the search box, type **Web app (1)**, select **Web App (2)** from the list of results, click on **Create (3)** and click on **Web App (4)**.
 
-    ![](./media/24-07-2024(42).png)
+    ![](./media/ee12.png)
 
 1. On the **Basics** tab of **Create Web App** resource page, enter the following details and click on **Next : Database > (9)** button.
    
@@ -42,7 +42,7 @@ In this task, you will create a new Azure Web App resource. The web app will be 
 
     - Linux Plan: Select an existing plan i.e. **hostingplan-<inject key="Deployment ID" enableCopy="false"></inject> (B3)**  **(8)**
 
-      ![](./media/webapp1.png)
+      ![](./media/ep12.png)
 
 1. On the **Database** tab click on **Next : Container >**
 
@@ -54,11 +54,11 @@ In this task, you will create a new Azure Web App resource. The web app will be 
 
    - Image and tag: Enter **fruocco/oai-embeddings:latest (3)**
 
-     ![](./media/webapp2.png)
+     ![](./media/ee14.png)
 
 1. On the **Review + create** tab, review the configuration, and click on **Create** button.
 
-    ![](./media/24-07-2024(46).png)
+    ![](./media/ee15.png)
 
 1. Once the deployment is complete, click on the **Go to resource** button.
    
