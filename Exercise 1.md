@@ -152,11 +152,11 @@ In this task, you will create the required Azure resources for AI Search, Docume
 
     - Click on **Review + create (6)** button
 
-      ![](./media/ee6.png)
+      ![](./media/ep5.png)
 
 1. Review the configuration, and click on **Create** button.
 
-     ![](./media/ee7.png)
+     ![](./media/ep6.png)
 
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 > - If you receive a success message, you can proceed to the next task.
@@ -186,11 +186,11 @@ In this task, you will create the required Azure resources for AI Search, Docume
     
     - Pricing tier: **Standard S0 (1 Call per minute for training API) (5)**
 
-      ![](./media/ee8.png)
+      ![](./media/ep7.png)
         
 1. Click on **Review + create** button, review the configuration, and click on **Create** button.
 
-    ![](./media/ee9.png)
+    ![](./media/ep8.png)
 
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 > - If you receive a success message, you can proceed to the next task.
@@ -222,11 +222,11 @@ In this task, you will create the required Azure resources for AI Search, Docume
 
     - Click on **Review + create (6)** button
 
-      ![](./media/ee10.png)
+      ![](./media/ep9.png)
     
 1. Review the configuration, and click on **Create** button.
 
-    ![](./media/ee11.png)
+    ![](./media/ep10.png)
 
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 > - If you receive a success message, you can proceed to the next task.
