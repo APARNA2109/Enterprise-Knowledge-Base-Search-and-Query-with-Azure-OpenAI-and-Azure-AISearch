@@ -52,7 +52,7 @@ Welcome to your Enterprise Knowledge Base Search and Query with Azure OpenAI and
  
 Once you're ready to dive in, your virtual machine and lab guide will be right at your fingertips within your web browser.
  
-![](./media/1upd1.png)
+![](./media/ep1.png)
 
 ### Virtual Machine & Lab Guide
  
@@ -62,19 +62,19 @@ Your virtual machine is your workhorse throughout the workshop. The lab guide is
  
 To get a better understanding of your lab resources and credentials, navigate to the **Environment** tab.
  
-![](./media/2upd.png)
+![](./media/ep3.png)
  
 ## Utilizing the Split Window Feature
  
 For convenience, you can open the lab guide in a separate window by selecting the **Split Window** button from the Top right corner.
  
-![](./media/3upd.png)
+![](./media/ep4.png)
  
 ## Managing Your Virtual Machine
  
 Feel free to start, stop, or restart your virtual machine as needed from the **Resources** tab. Your experience is in your hands!
  
-![](./media/4upd.png)
+![](./media/ep11.png)
 
 ## Lab Guide Zoom In/Zoom Out
 
