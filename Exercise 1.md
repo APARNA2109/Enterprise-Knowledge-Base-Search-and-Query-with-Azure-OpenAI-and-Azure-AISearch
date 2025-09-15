@@ -44,11 +44,11 @@ Azure OpenAI offers a web-based portal called **Azure AI Foundry portal** for de
     
     - **Pricing tier**: **Standard S0 (5)**
 
-      ![](./media/openai3.png)
+      ![](./media/ee1.png)
 
 1. On the **Network** tab, leave the value as default and click on **Next** button.
 
-    ![](./media/24-07-2024(3).png)
+    ![](./media/ee2.png)
 
 1. On the **Tags** tab, leave the value as default and click on **Next** button.
 
@@ -56,7 +56,7 @@ Azure OpenAI offers a web-based portal called **Azure AI Foundry portal** for de
   
 1. On the **Review + submit** tab, review the configuration, and click on **Create** button.
 
-    ![](./media/24-07-2024(5).png)
+    ![](./media/ee3.png)
 
 1. Once the deployment is complete, click on the **Go to resource** button.
    
@@ -74,13 +74,13 @@ Azure OpenAI offers a web-based portal called **Azure AI Foundry portal** for de
 
 ### Deploy Models in Azure AI Foundry portal
 
-1. Go to the Azure OpenAI Overview page, and click **Go to Azure AI Foundry portal** to navigate to Azure AI Foundry portal.
+1. Go to the Azure OpenAI Overview page, and click **Go to Azure AI Foundry portal** to navigate to the Azure AI Foundry portal.
 
-    ![](./media/lab-03.png)
+    ![](./media/ee4.png)
 
 1. In the Azure AI Foundry portal, navigate to **Deployments (1)**, select **+ Deploy model (2)**, and then choose **Deploy base model (3)**.
 
-    ![](./media/aifoundry2upd.png)
+    ![](./media/ee5.png)
 
 1. On the Select a model page, search for **gpt-35-turbo-instruct (1)**, select **gpt-35-turbo-instruct (2)**, and click **Confirm (3)**.
 
@@ -152,11 +152,11 @@ In this task, you will create the required Azure resources for AI Search, Docume
 
     - Click on **Review + create (6)** button
 
-      ![](./media/aisearch2.png)
+      ![](./media/ep5.png)
 
 1. Review the configuration, and click on **Create** button.
 
-     ![](./media/aisearch3.png)
+     ![](./media/ep6.png)
 
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 > - If you receive a success message, you can proceed to the next task.
@@ -186,11 +186,11 @@ In this task, you will create the required Azure resources for AI Search, Docume
     
     - Pricing tier: **Standard S0 (1 Call per minute for training API) (5)**
 
-      ![](./media/24-07-2024(21).png)
+      ![](./media/ep7.png)
         
 1. Click on **Review + create** button, review the configuration, and click on **Create** button.
 
-    ![](./media/24-07-2024(22).png)
+    ![](./media/ep8.png)
 
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 > - If you receive a success message, you can proceed to the next task.
@@ -222,11 +222,11 @@ In this task, you will create the required Azure resources for AI Search, Docume
 
     - Click on **Review + create (6)** button
 
-      ![](./media/translator2.png)
+      ![](./media/ep9.png)
     
 1. Review the configuration, and click on **Create** button.
 
-    ![](./media/24-07-2024(28).png)
+    ![](./media/ep10.png)
 
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 > - If you receive a success message, you can proceed to the next task.
