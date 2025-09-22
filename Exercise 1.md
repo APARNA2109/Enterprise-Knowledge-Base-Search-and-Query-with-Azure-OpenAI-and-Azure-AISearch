@@ -1,6 +1,6 @@
 # Exercise 1: Embedding Creation
 
-### Estimated Duration: 120 minutes
+### Estimated Duration: 120 Minutes
 
 In this exercise, you will gain hands-on experience in setting up a comprehensive Azure-based environment for embedding creation and document processing. The exercise is structured into two main parts:
 
@@ -130,7 +130,7 @@ In this task, you will create the required Azure resources for AI Search, Docume
 
 ### Create AI Search Service
 
-1. Navigate to the Azure portal at `portal.azure.com`, type **AI Search (1)** in the search box and select **AI Search (2)** from the results.
+1. On the Azure portal, type **AI Search (1)** in the search box and select **AI Search (2)** from the results.
 
     ![](./media/24-07-2024(12).png)
 
@@ -144,13 +144,13 @@ In this task, you will create the required Azure resources for AI Search, Docume
     
     - Resource Group: **Select Openai-embedded-<inject key="Deployment ID" enableCopy="false"></inject> (2)**
 
-    - Service name: **aisearch-<inject key="Deployment ID" enableCopy="false"></inject> (4)**
+    - Service name: **aisearch-<inject key="Deployment ID" enableCopy="false"></inject> (3)**
     
-    - Location: Select **<inject key="Region" enableCopy="false" /> (3)**
+    - Location: Select **<inject key="Region" enableCopy="false" /> (4)**
     
     - Pricing tier: **Standard (5)**
 
-    - Click on **Review + create (6)** button
+    - Click on **Review + create (6)**
 
       ![](./media/ep5.png)
 
@@ -238,7 +238,7 @@ In this task, you will create the required Azure resources for AI Search, Docume
 
 In this task, you will deploy Azure Functions that automate the document processing workflow.
 
-1. From the JumpVM, open **File Explorer** by selecting its icon on the Windows Taskbar.
+1. From the LabVM, open **File Explorer** by selecting its icon on the Windows Taskbar.
 
     ![](./media/12.png)
 
@@ -337,3 +337,5 @@ In this exercise, you have accomplished the following:
 - Integrated Azure OpenAI models into your applications
 
 ### Click on **Next >>** to proceed to the next exercise.
+
+![](./media/lab-02.png)

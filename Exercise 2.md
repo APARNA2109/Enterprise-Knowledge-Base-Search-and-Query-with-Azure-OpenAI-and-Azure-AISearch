@@ -1,6 +1,6 @@
 # Exercise 2: Query and retrieval
 
-### Estimated Duration: 120 minutes
+### Estimated Duration: 120 Minutes
 
 In this exercise, you will create and deploy a web application from a Docker image in Azure, configure environment variables, and test the deployment.
 
@@ -44,7 +44,7 @@ In this task, you will create a new Azure Web App resource. The web app will be 
 
       ![](./media/ep12.png)
 
-1. On the **Database** tab click on **Next : Container >**
+1. On the **Database** tab, keep the default settings and click on **Next : Container >**.
 
 1. On the **Container** tab, enter the following details and click on **Review + create (4)** button.
 
@@ -68,7 +68,7 @@ In this task, you will create a new Azure Web App resource. The web app will be 
 
 In this task, you will configure the necessary environment variables. This involves accessing the environment variables section in the web app settings, editing the values to match those provided in the previous exercise, and saving the changes.
 
-1. In the left-hand menu, select **Environment variables (1)** under **Settings section** and click on **Advanced edit (2)** at the top of the page to view or modify the environment variables.
+1. In the left-hand menu, select **Environment variables (1)** under **Settings** section and click on **Advanced edit (2)** at the top of the page to view or modify the environment variables.
 
     ![](./media/lab-04.png)
 
@@ -142,7 +142,7 @@ In this task, you will test the functionality of the deployed web app by browsin
 
     ![](./media/39.png)
 
-1. From the JumpVM, open **File Explorer** by selecting its icon on the Windows Taskbar.
+1. From the LabVM, open **File Explorer** by selecting its icon on the Windows Taskbar.
 
     ![](./media/12.png)
 
