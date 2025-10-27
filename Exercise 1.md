@@ -28,9 +28,9 @@ Azure OpenAI offers a web-based portal called **Azure AI Foundry portal** for de
 
     ![](./media/openai1upd.png)
 
-1. On the **AI Foundry | Azure OpenAI** blade, click on **+ Create**.
+1. On the **AI Foundry | Azure OpenAI blade**, in the left pane under **Use with AI Foundry**, select **Azure OpenAI (1)**. Then click **+ Create (2)**, and from the dropdown, choose **Azure OpenAI (3)**.
 
-    ![](./media/openai2upd.png)
+    ![](./media/am2.png)
 
 1. On the **Basics** tab of **Create Azure OpenAI** resource page, enter the following details and click on **Next (6)** button.
    
@@ -44,19 +44,19 @@ Azure OpenAI offers a web-based portal called **Azure AI Foundry portal** for de
     
     - **Pricing tier**: **Standard S0 (5)**
 
-      ![](./media/ee1.png)
+      ![](./media/am23.png)
 
 1. On the **Network** tab, leave the value as default and click on **Next** button.
 
-    ![](./media/ee2.png)
+    ![](./media/am3.png)
 
 1. On the **Tags** tab, leave the value as default and click on **Next** button.
 
-    ![](./media/24-07-2024(4).png)
+    ![](./media/am4.png)
   
 1. On the **Review + submit** tab, review the configuration, and click on **Create** button.
 
-    ![](./media/ee3.png)
+    ![](./media/am24.png)
 
 1. Once the deployment is complete, click on the **Go to resource** button.
    
@@ -132,7 +132,7 @@ In this task, you will create the required Azure resources for AI Search, Docume
 
 1. Navigate to the Azure portal at `portal.azure.com`, type **AI Search (1)** in the search box and select **AI Search (2)** from the results.
 
-    ![](./media/24-07-2024(12).png)
+    ![](./media/am5.png)
 
 1. On the **AI Foundry | AI Search** blade, click on **+ Create**.
 
@@ -152,11 +152,11 @@ In this task, you will create the required Azure resources for AI Search, Docume
 
     - Click on **Review + create (6)** button
 
-      ![](./media/ep5.png)
+      ![](./media/am6.png)
 
 1. Review the configuration, and click on **Create** button.
 
-     ![](./media/ep6.png)
+     ![](./media/am25.png)
 
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 > - If you receive a success message, you can proceed to the next task.
@@ -168,7 +168,7 @@ In this task, you will create the required Azure resources for AI Search, Docume
 
 1. On the Azure portal, type **Document intelligence (1)** in the search box and select **Document intelligences (2)** from the results.
 
-    ![](./media/24-07-2024(19).png)
+    ![](./media/am7.png)
 
 1. On the **AI Foundry | Document intelligence** blade, click on **+ Create**.
 
@@ -186,11 +186,11 @@ In this task, you will create the required Azure resources for AI Search, Docume
     
     - Pricing tier: **Standard S0 (1 Call per minute for training API) (5)**
 
-      ![](./media/ep7.png)
+      ![](./media/am8.png)
         
 1. Click on **Review + create** button, review the configuration, and click on **Create** button.
 
-    ![](./media/ep8.png)
+    ![](./media/am26.png)
 
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 > - If you receive a success message, you can proceed to the next task.
@@ -202,7 +202,7 @@ In this task, you will create the required Azure resources for AI Search, Docume
 
 1. On the Azure portal, type **Translators (1)** in the search box and select **Translators (2)** from the results.
 
-    ![](./media/24-07-2024(25).png)
+    ![](./media/am9.png)
 
 1. On the **AI Foundry | Translator** blade, click on **+ Create**.
 
@@ -222,11 +222,11 @@ In this task, you will create the required Azure resources for AI Search, Docume
 
     - Click on **Review + create (6)** button
 
-      ![](./media/ep9.png)
+      ![](./media/am10.png)
     
 1. Review the configuration, and click on **Create** button.
 
-    ![](./media/ep10.png)
+    ![](./media/am27.png)
 
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 > - If you receive a success message, you can proceed to the next task.
@@ -244,15 +244,15 @@ In this task, you will deploy Azure Functions that automate the document process
 
 1. Navigate to `C:\LabFiles` **(1)** and double-click on the `deploy-01.json` **(2)** file to open it. Select **Notepad (3)** and click **OK (4)**. Copy the template in Notepad for future deployment.
 
-    ![](./media/13.png)
+    ![](./media/am12.png)
 
 1. Navigate back to the Azure Portal, type **Deploy a custom template (1)** in the search box and select **Deploy a custom template (2)** from the results.
 
-    ![](./media/24-07-2024(32).png)
+    ![](./media/am13.png)
 
 1. On the **Custom deployment** page, click on **Build your own template in the editor**.
 
-    ![](./media/42.png)
+    ![](./media/am14.png)
 
 1. Paste the template you copied in step 2 and click on the **Save** button.
 
@@ -318,7 +318,7 @@ In this task, you will deploy Azure Functions that automate the document process
 
 1. In the left-hand menu, select **Environment variables (1)** under **Settings** section and click on **Advanced edit (2)** at the top of the page to view or modify the environment variables.
 
-    ![](./media/24-07-2024(48).png)
+    ![](./media/am15.png)
 
 1. Copy all the values displayed in the environment variables section and paste them into Notepad for the next exercise.
 
