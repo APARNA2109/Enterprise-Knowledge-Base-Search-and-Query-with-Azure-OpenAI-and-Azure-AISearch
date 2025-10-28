@@ -62,7 +62,7 @@ Your virtual machine is your workhorse throughout the workshop. The lab guide is
  
 To get a better understanding of your lab resources and credentials, navigate to the **Environment** tab.
  
-![](./media/ep3.png)
+![](./media/am22.png)
  
 ## Utilizing the Split Window Feature
  
@@ -94,11 +94,11 @@ To adjust the zoom level for the environment page, click the **A↕ : 100%** ico
  
      ![](./media/8.png)
  
-3. Now enter the following password and click on **Sign in**.
+3. Now enter the Temporary Access Pass and click on **Sign in**.
  
-   - **Password:** <inject key="AzureAdUserPassword"></inject>
+   - **Enter Temporary Access Pass:** <inject key="AzureAdUserPassword"></inject>
  
-     ![](./media/9.png)
+     ![](./media/am1.png)
  
 1. If you see the pop-up Action Required, click Ask Later.
 

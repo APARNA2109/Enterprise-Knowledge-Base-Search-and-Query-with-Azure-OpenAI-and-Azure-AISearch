@@ -18,11 +18,11 @@ In this task, you will create a new Azure Web App resource. The web app will be 
 
 1. Click on the **+ Create a resource** button in the top left corner of the Azure Portal.
 
-    ![](./media/24-07-2024(41).png)
+    ![](./media/am16.png)
 
 1. In the search box, type **Web app (1)**, select **Web App (2)** from the list of results, click on **Create (3)** and click on **Web App (4)**.
 
-    ![](./media/ee12.png)
+    ![](./media/am17.png)
 
 1. On the **Basics** tab of **Create Web App** resource page, enter the following details and click on **Next : Database > (9)** button.
    
@@ -42,7 +42,7 @@ In this task, you will create a new Azure Web App resource. The web app will be 
 
     - Linux Plan: Select an existing plan i.e. **hostingplan-<inject key="Deployment ID" enableCopy="false"></inject> (B3)**  **(8)**
 
-      ![](./media/ep12.png)
+      ![](./media/am18.png)
 
 1. On the **Database** tab, keep the default settings and click on **Next : Container >**.
 
@@ -58,11 +58,11 @@ In this task, you will create a new Azure Web App resource. The web app will be 
 
 1. On the **Review + create** tab, review the configuration, and click on **Create** button.
 
-    ![](./media/ee15.png)
+    ![](./media/am19.png)
 
 1. Once the deployment is complete, click on the **Go to resource** button.
    
-    ![](./media/24-07-2024(47).png)
+    ![](./media/am20.png)
 
 ## Task 2: Add environment Variables and check the Docker deployment
 
@@ -110,7 +110,7 @@ In this task, you will test the functionality of the deployed web app by browsin
 
 1. To confirm, in the Azure Portal, type **Storage accounts (1)** in the search box and select **Storage accounts (2)** from the results.
 
-    ![](./media/21.png)
+    ![](./media/am21.png)
 
 1. On the Storage accounts page, select **storage<inject key="Deployment ID" enableCopy="false"></inject>**.
 
